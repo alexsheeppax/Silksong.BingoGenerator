@@ -1,7 +1,12 @@
 # BINGYFLEA
 A discord bot and associated codebase used to support [bingosync](https://bingosync.com/) and [lockout.live](https://lockout.live/) silksong play.
 
-## Format specs
+The up-to-date lockout.live file lives in assets/generated/.
+
+## Goal contribution
+The current list of goals is "categorized_v2.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
+
+### Format specs
 
 Types:
 "craft", "flea", "key", "tool", "melody", "quest", "locket", "upgrade", "fight", "npc", "location", "collection", "relic", "hardsave"
