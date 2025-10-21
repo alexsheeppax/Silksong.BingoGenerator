@@ -777,7 +777,7 @@
       ]
     },
     {
-      "name": "Pay For a Flea Spa",
+      "name": "Slap Kratt",
       "types": [
         "npc",
         "flea"
@@ -1111,12 +1111,6 @@
     },
     {
       "unique": [
-        "Great Conchflies",
-        "Needle Art"
-      ]
-    },
-    {
-      "unique": [
         "Savage Beastfly",
         "Beast's Crest"
       ]
@@ -1124,8 +1118,7 @@
     {
       "unique": [
         "Moss Mother Duo",
-        "Weavelight",
-        "Evolved Hunter's Crest"
+        "Weavelight"
       ]
     },
     {
@@ -1136,20 +1129,8 @@
     },
     {
       "unique": [
-        "Wisp Lantern",
-        "Father Of The Flame"
-      ]
-    },
-    {
-      "unique": [
         "Last Judge",
         "Enter Grand Gate"
-      ]
-    },
-    {
-      "unique": [
-        "Clockwork Dancers",
-        "Trobbio"
       ]
     },
     {
@@ -1172,7 +1153,6 @@
     },
     {
       "unique": [
-        "Pay To Confess",
         "Delver's Drill",
         "Talk to Loam"
       ]
@@ -1191,7 +1171,7 @@
     },
     {
       "unique": [
-        "Pay For a Flea Spa",
+        "Slap Kratt",
         "Greymoor Fleas [2] + Kratt"
       ]
     }

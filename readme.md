@@ -4,7 +4,7 @@ A discord bot and associated codebase used to support [bingosync](https://bingos
 The up-to-date lockout.live file lives in assets/generated/.
 
 ## Goal contribution
-The current list of goals is "categorized_v2.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
+The current list of goals is "categorized_v3.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
 
 ### Format specs
 
