@@ -50,12 +50,12 @@ async def on_ready():
 
 @client.tree.error
 async def on_app_command_error(interaction, error):
-    await interaction.response.send_message(str(error.__cause__), ephemeral=True)
+    await interaction.response.send_message(f"The following error was encountered: {str(error.__cause__)}. Let Abyss know!", ephemeral=True)
 
 @client.tree.command()
 async def newboard(interaction: discord.Interaction):
     """Generates a new board with default settings."""
-    thisBoard = board.defaultBoard()
+    thisBoard = board.defaultBingosyncBoard()
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 if __name__ == "__main__":

@@ -4,13 +4,13 @@ import os, json, random
 ASSETS_PATH = "assets"
 COMPUTED_SUBDIR = "generated"
 GOALS_FILENAME = "silksong-v6.json"
-CAT_FILENAME = "categorized_v2.json"
+CAT_FILENAME = "categorized_v3.json"
 
 #Lockout.live formatting
 BOARD_TYPES = [
     'cloak', 'walljump', 'act2', 'dash', 'early', 'clawline', 
     'feydown', 'craft', 'hardsave', 'melody', 'flea', "key", 'tool', ]
-
+    
 LL_LIMITS = {
             "board" : {
                 "early" : 20,
@@ -39,40 +39,14 @@ LL_LIMITS = {
             }
         }
 
-
-def getAllGoals(fname = CAT_FILENAME, exclusions = False):
+def getAllGoals():
     """
-    Loads goals file into code. Outputs one list of goal dictionaries and another list of exclusive goal lists. 
-    Only one goal from each exclusive list can be present in the final board.
+    Loads the file given in variables at the top of the script and returns the parts.
+    Returns list of Goal dictionaries and list of Exclusive lists.
     """
-    with open(os.path.join(ASSETS_PATH, fname)) as f:
-        fileObj = json.load(f)
-    if exclusions: #it's the uncategorized list
-        goals = fileObj[0]
-        uniques = fileObj[1]
-        goals = processGoalList(goals)
-        uniques = processUniquesList(uniques)
-        return goals, uniques
-    else:
-        return fileObj
-
-def processGoalList(rawGoals):
-    """
-    Goals are provided in an odd format with exclusions set to true. Process them into a simple list of names.
-    """
-    out = []
-    for goal in rawGoals:
-        out.append(goal["name"])
-    return out
-
-def processUniquesList(rawExclus):
-    """
-    Exclusions are provided in an odd format. Process them into a simple list of lists.
-    """
-    out = []
-    for l in rawExclus:
-        out.append(l["unique"])
-    return out
+    with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
+        catList = json.load(f)
+    return catList["goals"], [u["unique"] for u in catList["exclusions"]]
 
 def findExclusions(goalName, exclusionList):
     """
@@ -84,54 +58,48 @@ def findExclusions(goalName, exclusionList):
             exclus = exclus + exclusionSet
     return exclus
 
-def board(allGoals:list, exclusionList):
+def removeGoalByName(goalList:list, toRemove):
+    listCopy = goalList.copy()
+    for goal in goalList:
+        if goal["name"] == toRemove:
+            listCopy.remove(goal) #can't change mutable types during iteration
+    return listCopy
+
+def board(allGoals:dict, exclusionList):
     """
-    Generates a list of 25 goals from the list of goals pass as a dictionary. Goals will have a name and optionally exclusions.
-    Returns a list of dictionaries like {"name": "GOAL_NAME"} because that's what bingosync wants for some reason.
+    Generates a list of 25 goals from the dict of goals pass as a dictionary. Goals will have a name and optionally exclusions.
+    Returns a list of goal names.
     """
     goals = []
     while len(goals) < 25:
         newGoal = random.choice(allGoals)
-        for excludedGoal in findExclusions(newGoal, exclusionList):
-            try:
-                allGoals.remove(excludedGoal)
-            except ValueError: #goal not present in list, job done
-                pass
-        goals.append(newGoal)
+        for excludedGoal in findExclusions(newGoal["name"], exclusionList):
+            removeGoalByName(allGoals, excludedGoal)
+        if "range" in newGoal.keys(): #goal has a range
+            goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["range"]))))
+        else: #no range, ez
+            goals.append(newGoal["name"])
         try:
             allGoals.remove(newGoal)
-        except ValueError:
+        except ValueError: #what
             pass
-    random.shuffle(goals)
+    random.shuffle(goals) #mix em all up
     return goals
 
-def defaultBoard():
+def defaultBingosyncBoard():
     """
     Generates a board using the default settings and returns a bingosync formatted list.
     """
-    boardList = board(*getAllGoals(fname=GOALS_FILENAME, exclusions=True))
+    boardList = board(*getAllGoals())
     out = []
     for name in boardList:
         out.append({"name": name})
     return out
 
-def compareLists():
-    oldGoals, _ = getAllGoals(exclusions=True)
-    noMatchRose = oldGoals.copy()
-    with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
-        catList = json.load(f)
-    catListNames = [g["name"] for g in catList]
-    noMatchCatList = catList.copy()
-    for goal in catList:
-        if goal["name"] in noMatchRose:
-            noMatchRose.remove(goal["name"])
-    for goal in oldGoals:
-        if goal in catListNames:
-            catListNames.remove(goal)
-            
-    return f"Goals that exist without categories: {noMatchRose}\n\nGoals that have categories that aren't in Rose's list: {catListNames}"
-
 def printTypes():
+    """
+    Prints all types and progression flags currently in use.
+    """
     with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
         catList = json.load(f)
     types = []
@@ -145,21 +113,17 @@ def printTypes():
                 prog.append(p)
     print(f"Types: {types}\n\nProg:{prog}")
 
-
-
-
 def lockoutFormat():
     """
     Outputs a list of goals formatted for Lockout.Live.
     """
-    with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
-        catList = json.load(f)
+    mainList, _ = getAllGoals() #lockout.live doesn't acknowledge exclusions
     out = {
         "game" : "Hollow Knight: Silksong",
         "limits" : LL_LIMITS
     }
     goalsList = []
-    for goalDic in catList["goals"]:
+    for goalDic in mainList:
         try:
             r = goalDic["range"]
         except KeyError:
@@ -168,8 +132,8 @@ def lockoutFormat():
         bTypes = []
         lTypes = []
         for t in totTypes:
-            if t == "widow":
-                t = "walljump"
+            if t == "widow":    #the difference between widow and walljump progression was small enough that categorizing things was hard
+                t = "walljump"  #it was also causing balance issues. get outta here
             if t in BOARD_TYPES:
                 bTypes.append(t)
             else:
@@ -187,8 +151,36 @@ def lockoutFormat():
     out["objectives"] = goalsList
     return out
 
+def bingosyncFormat():
+    """
+    Outputs a list of goals formatted for bingosync.
+    """
+    with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
+        catList = json.load(f)
+    goalsList = []
+    for goalDic in catList["goals"]:
+        if "range" in goalDic.keys():
+            for x in goalDic["range"]:
+                goalsList.append({"name": goalDic["name"].replace("{{X}}", str(x))})
+        else:
+            goalsList.append({"name": goalDic["name"]})
+    return goalsList
+
 if __name__ == "__main__":
-    #dump the current format for lockout.live
+    ####dump the current format for lockout.live
     with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_lockoutlive_v1.json"), "w") as f:
         json.dump(lockoutFormat(), f, indent=4)
-    print("File dumped.")
+
+    ####dump the current format for bingosync
+    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_bingosync_v1.json"), "w") as f:
+        json.dump(bingosyncFormat(), f, indent=4)
+    #print("File dumped.")
+
+    ####Test bingosync format
+    #print(json.dumps(bingosyncFormat()))
+
+    ####Test lockout format
+    #print(json.dumps(lockoutFormat()))
+
+    ####Test board generation
+    print(json.dumps(defaultBingosyncBoard()))
