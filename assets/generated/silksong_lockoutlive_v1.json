@@ -1,0 +1,1564 @@
+{
+    "game": "Hollow Knight: Silksong",
+    "limits": {
+        "board": {
+            "early": 20,
+            "dash": 20,
+            "cloak": 30,
+            "walljump": 25,
+            "act2": 30,
+            "clawline": 40,
+            "feydown": 50,
+            "hardsave": 20,
+            "craft": 40,
+            "flea": 15,
+            "key": 20,
+            "tool": 30,
+            "melody": 20
+        },
+        "line": {
+            "quest": 60,
+            "locket": 60,
+            "upgrade": 80,
+            "fight": 60,
+            "npc": 40,
+            "location": 60,
+            "collection": 60,
+            "relic": 60
+        }
+    },
+    "objectives": [
+        {
+            "goal": "2 Donations Quests",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 Hunt Quests",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 Wayfarer Quests",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 Gather Quests",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Complete 5 Quests",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Complete A Delivery",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Crawbug Clearing",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Volatile Flintbeetles",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "quest",
+                "locket"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "3 Red Tools",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "tool",
+                "craft"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "3 Blue Tools",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "3 Yellow Tools",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early",
+                "dash",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 of each tool type",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early",
+                "dash",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Straight, Threefold, and Long Pin",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Dead Bug's Purse + Silkeater",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Barbed Bracelet + Fractured Mask",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Magnetite Dice & Magnetite Brooch",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Delver's Drill",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "tool",
+                "hardsave"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Wanderer's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "key"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Reaper's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Beast's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Clawline",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "clawline",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Needle Art",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade",
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Plasmium Phial",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool",
+                "key"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Needle 2",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "upgrade",
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Thread Storm",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Sharpdart",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "key",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Evolved Hunter's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Faydown Cloak",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "feydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "3 Silk Skills",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Pollip Pouch",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Tacks",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Weavelight",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Farfields Escape Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Memory Crystal",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Injector Band",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "tool"
+            ],
+            "line_categories": [
+                "ww"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Silkspeed Anklets",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Pimpillo",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool",
+                "craft"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Flintslate",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool",
+                "key"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Repair Silkshot",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "tool",
+                "craft"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Shellwood Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Blasted Steps Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Rosary Canon",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "tool",
+                "key"
+            ],
+            "line_categories": [
+                "hh"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Cogflies",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "tool",
+                "craft"
+            ],
+            "line_categories": [
+                "hh"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Craggler",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Moorwing",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Savage Beastfly",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Great Conchflies",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Moss Mother Duo",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Widow",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Defeat a Rhinogrund",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Fourth Chorus",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Clockwork Dancers",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Last Judge",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Phantom",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Trobbio",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Disgraced Chef Lugoli",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Father Of The Flame",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown",
+                "tool"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Forebrothers Signis & Gron",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "key"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "First Sinner",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown",
+                "hardsave"
+            ],
+            "line_categories": [
+                "fight",
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Defeat a Covetous Pilgrim",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Defeat a Cogwork Clapper",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Splinter Sister",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "The Unraveled",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "fight",
+                "ww"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Voltwyrm",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown",
+                "tool"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Skull Tyrant",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight",
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Save Green Prince",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "key"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Meet Caravan in Greymoor",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "tool",
+                "flea"
+            ],
+            "line_categories": [
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Complete a Loddie Minigame",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Gilly & Styx",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Loam",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Mask Maker",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Buy From Grindle",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Win Against Lumble The Lucky",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Pay To Confess",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Fight Big Flea",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Underworks Ventrica",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Choral Chambers Ventrica",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain {{X}} Craftmetal",
+            "range": [
+                3,
+                5
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "craft"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain Crustnut",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain Mossberry Soup",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Twisted Bud",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Pay For a Flea Spa",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Enter The Slab",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "feydown"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "1 Extra Mask",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "cloak"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Greymoor Fleas [2] + Kratt",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Far Fields Fleas [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Shellwood & Bellhart Fleas [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Deep Docks Fleas [3]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "flea",
+                "key"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Wormways & Blasted Steps Flea [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Free 8 fleas",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Sinner's Road & Marrows Flea [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Sands of Karak Flea [1]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "{{X}} Spool Upgrades",
+            "range": [
+                1,
+                2
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Have 4 Rosary Strings",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Break 6 Rosary Strings",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain a Tool Pouch Upgrade",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain a Crafting Kit",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "{{X}} Memory Lockets",
+            "range": [
+                4,
+                5
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "collection",
+                "locket"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Fully Unlock a Non-Hunter's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "walljump"
+            ],
+            "line_categories": [
+                "collection",
+                "locket"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain {{X}} Different Types of Relic",
+            "range": [
+                3,
+                4
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "collection",
+                "relic"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "8 Shakra Locations (including hubs)",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Shakra in Bilewater",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "npc",
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Huntress",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Save Jubliana",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "npc",
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Squirrm Journal Entry",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain 2 Beast Shards",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Bilewater Bellway",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Open White Ward",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "location",
+                "ww"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Enter Grand Gate",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Forge Daughter and Twelfth Architect",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Any Cogheart Piece",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Architect's Melody",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "melody"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Conductor's Melody",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "melody"
+            ],
+            "line_categories": [
+                "fight",
+                "hh"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Vaultkeeper's Melody",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "melody"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        }
+    ]
+}
