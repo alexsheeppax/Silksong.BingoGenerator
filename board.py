@@ -74,7 +74,7 @@ def board(allGoals:dict, exclusionList):
     while len(goals) < 25:
         newGoal = random.choice(allGoals)
         for excludedGoal in findExclusions(newGoal["name"], exclusionList):
-            removeGoalByName(allGoals, excludedGoal)
+            allGoals = removeGoalByName(allGoals, excludedGoal)
         if "range" in newGoal.keys(): #goal has a range
             goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["range"]))))
         else: #no range, ez
