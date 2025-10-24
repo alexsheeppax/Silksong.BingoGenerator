@@ -46,6 +46,9 @@ def getAllGoals():
     """
     with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
         catList = json.load(f)
+    for g in catList["goals"]: #add weight=1 to all non-weighted goals for later
+        if "weight" not in g.keys():
+            g["weight"] = 1
     return catList["goals"], [u["unique"] for u in catList["exclusions"]]
 
 def findExclusions(goalName, exclusionList):
@@ -72,7 +75,7 @@ def board(allGoals:dict, exclusionList):
     """
     goals = []
     while len(goals) < 25:
-        newGoal = random.choice(allGoals)
+        newGoal = random.choices(allGoals, weights=[g["weight"] for g in allGoals])[0] #list comprehension to extract weights
         for excludedGoal in findExclusions(newGoal["name"], exclusionList):
             allGoals = removeGoalByName(allGoals, excludedGoal)
         if "range" in newGoal.keys(): #goal has a range

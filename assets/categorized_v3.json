@@ -516,7 +516,8 @@
       ],
       "progression": [
         "widow"
-      ]
+      ],
+      "weight" : 2
     },
     {
       "name": "Trobbio",
@@ -777,14 +778,15 @@
       ]
     },
     {
-      "name": "Slap Kratt",
+      "name": "Pay for a Flea Spa",
       "types": [
         "npc",
         "flea"
       ],
       "progression": [
         "walljump"
-      ]
+      ],
+      "weight" : 2
     },
     {
       "name": "Enter The Slab",
@@ -1171,7 +1173,7 @@
     },
     {
       "unique": [
-        "Slap Kratt",
+        "Pay for a Flea Spa",
         "Greymoor Fleas [2] + Kratt"
       ]
     }
