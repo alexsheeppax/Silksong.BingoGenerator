@@ -941,6 +941,19 @@
             "icons": []
         },
         {
+            "goal": "Fail a Loddie Minigame",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Talk to Gilly & Styx",
             "range": [],
             "individual_limit": 1,

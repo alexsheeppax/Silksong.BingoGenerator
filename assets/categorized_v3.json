@@ -656,6 +656,15 @@
       ]
     },
     {
+      "name": "Fail a Loddie Minigame",
+      "types": [
+        "npc"
+      ],
+      "progression": [
+        "widow"
+      ]
+    },
+    {
       "name": "Talk to Gilly & Styx",
       "types": [
         "npc"
@@ -1175,6 +1184,12 @@
       "unique": [
         "Pay for a Flea Spa",
         "Greymoor Fleas [2] + Kratt"
+      ]
+    },
+    {
+      "unique": [
+        "Complete a Loddie Minigame",
+        "Fail a Loddie Minigame"
       ]
     }
   ]
