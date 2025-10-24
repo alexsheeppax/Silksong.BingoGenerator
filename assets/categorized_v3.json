@@ -152,8 +152,7 @@
     {
       "name": "Delver's Drill",
       "types": [
-        "tool",
-        "hardsave"
+        "tool"
       ],
       "progression": [
         "act2"
@@ -163,7 +162,7 @@
       "name": "Wanderer's Crest",
       "types": [
         "upgrade",
-        "key"
+        "hardsave"
       ],
       "progression": [
         "walljump"
@@ -550,8 +549,7 @@
     {
       "name": "Forebrothers Signis & Gron",
       "types": [
-        "fight",
-        "key"
+        "fight"
       ],
       "progression": [
         "clawline"
@@ -848,8 +846,7 @@
     {
       "name": "Deep Docks Fleas [3]",
       "types": [
-        "flea",
-        "key"
+        "flea"
       ],
       "progression": [
         "clawline"
