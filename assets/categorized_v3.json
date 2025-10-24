@@ -1192,6 +1192,12 @@
         "Complete a Loddie Minigame",
         "Fail a Loddie Minigame"
       ]
+    },
+    {
+      "unique":[
+        "Open White Ward",
+        "Injector Band"
+      ]
     }
   ]
 }
