@@ -409,7 +409,7 @@
       ]
     },
     {
-      "name": "Cogflies",
+      "name": "Cogfly",
       "types": [
         "tool",
         "craft",
@@ -492,7 +492,7 @@
       ]
     },
     {
-      "name": "Clockwork Dancers",
+      "name": "Cogwork Dancers",
       "types": [
         "fight"
       ],
