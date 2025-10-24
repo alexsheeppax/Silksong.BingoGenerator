@@ -171,11 +171,11 @@ def bingosyncFormat():
 
 if __name__ == "__main__":
     ####dump the current format for lockout.live
-    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_lockoutlive_v1.json"), "w") as f:
+    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_lockoutlive.json"), "w") as f:
         json.dump(lockoutFormat(), f, indent=4)
 
     ####dump the current format for bingosync
-    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_bingosync_v1.json"), "w") as f:
+    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_bingosync.json"), "w") as f:
         json.dump(bingosyncFormat(), f, indent=4)
     #print("File dumped.")
 
