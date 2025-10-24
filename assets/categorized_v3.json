@@ -409,7 +409,7 @@
       ]
     },
     {
-      "name": "Cogflies",
+      "name": "Cogfly",
       "types": [
         "tool",
         "craft",
@@ -492,7 +492,7 @@
       ]
     },
     {
-      "name": "Clockwork Dancers",
+      "name": "Cogwork Dancers",
       "types": [
         "fight"
       ],
@@ -950,7 +950,7 @@
         "cloak"
       ],
       "range": [
-        4,
+        1,
         5
       ]
     },
@@ -1164,6 +1164,7 @@
     },
     {
       "unique": [
+        "Pay To Confess",
         "Delver's Drill",
         "Talk to Loam"
       ]
