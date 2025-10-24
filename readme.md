@@ -3,6 +3,12 @@ A discord bot and associated codebase used to support [bingosync](https://bingos
 
 The up-to-date lockout.live and bingosync files live in assets/generated/.
 
+## Commands
+Add the bot to your user account or server via [this link!](https://discord.com/oauth2/authorize?client_id=1429591758248874105)
+
+- newboard
+Very simple command that spits out a Bingosync-formatted list. Set the game to Custom (Advanced) and the variant to "Fixed Board" to use.
+
 ## Goal contribution
 The current list of goals is "categorized_v3.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
 
