@@ -239,8 +239,7 @@
             "individual_limit": 1,
             "board_categories": [
                 "act2",
-                "tool",
-                "hardsave"
+                "tool"
             ],
             "line_categories": [],
             "tooltip": "",
@@ -252,7 +251,7 @@
             "individual_limit": 1,
             "board_categories": [
                 "walljump",
-                "key"
+                "hardsave"
             ],
             "line_categories": [
                 "upgrade"
@@ -473,6 +472,32 @@
             "icons": []
         },
         {
+            "goal": "Slab Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Bilewater Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Memory Crystal",
             "range": [],
             "individual_limit": 1,
@@ -567,7 +592,7 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "walljump"
+                "feydown"
             ],
             "line_categories": [
                 "upgrade"
@@ -591,7 +616,7 @@
             "icons": []
         },
         {
-            "goal": "Cogflies",
+            "goal": "Cogfly",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -710,7 +735,7 @@
             "icons": []
         },
         {
-            "goal": "Clockwork Dancers",
+            "goal": "Cogwork Dancers",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -793,26 +818,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "clawline",
-                "key"
+                "clawline"
             ],
             "line_categories": [
                 "fight"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "First Sinner",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "feydown",
-                "hardsave"
-            ],
-            "line_categories": [
-                "fight",
-                "upgrade"
             ],
             "tooltip": "",
             "icons": []
@@ -844,7 +853,7 @@
             "icons": []
         },
         {
-            "goal": "Splinter Sister",
+            "goal": "Sister Splinter",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -857,21 +866,7 @@
             "icons": []
         },
         {
-            "goal": "The Unraveled",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "clawline"
-            ],
-            "line_categories": [
-                "fight",
-                "ww"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Voltwyrm",
+            "goal": "Voltvyrm",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -1114,6 +1109,20 @@
             "icons": []
         },
         {
+            "goal": "Upgrade Druid's Eye",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown",
+                "tool"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Twisted Bud",
             "range": [],
             "individual_limit": 1,
@@ -1136,20 +1145,6 @@
             ],
             "line_categories": [
                 "npc"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Enter The Slab",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2",
-                "feydown"
-            ],
-            "line_categories": [
-                "location"
             ],
             "tooltip": "",
             "icons": []
@@ -1212,8 +1207,7 @@
             "individual_limit": 1,
             "board_categories": [
                 "clawline",
-                "flea",
-                "key"
+                "flea"
             ],
             "line_categories": [],
             "tooltip": "",
@@ -1233,6 +1227,18 @@
         },
         {
             "goal": "Free 8 fleas",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Meet Caravan at the Grand Gate",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -1264,6 +1270,33 @@
                 "flea"
             ],
             "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Mt. Fey Flea [1]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Talk to Vog",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "feydown",
+                "flea"
+            ],
+            "line_categories": [
+                "npc",
+                "location"
+            ],
             "tooltip": "",
             "icons": []
         },
@@ -1338,7 +1371,7 @@
         {
             "goal": "{{X}} Memory Lockets",
             "range": [
-                4,
+                1,
                 5
             ],
             "individual_limit": 1,
@@ -1487,19 +1520,6 @@
             "line_categories": [
                 "location",
                 "ww"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Enter Grand Gate",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2"
-            ],
-            "line_categories": [
-                "location"
             ],
             "tooltip": "",
             "icons": []

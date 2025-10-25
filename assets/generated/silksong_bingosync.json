@@ -99,6 +99,12 @@
         "name": "Farfields Escape Mask Shard"
     },
     {
+        "name": "Slab Mask Shard"
+    },
+    {
+        "name": "Bilewater Mask Shard"
+    },
+    {
         "name": "Memory Crystal"
     },
     {
@@ -126,7 +132,7 @@
         "name": "Rosary Canon"
     },
     {
-        "name": "Cogflies"
+        "name": "Cogfly"
     },
     {
         "name": "Craggler"
@@ -153,7 +159,7 @@
         "name": "Fourth Chorus"
     },
     {
-        "name": "Clockwork Dancers"
+        "name": "Cogwork Dancers"
     },
     {
         "name": "Last Judge"
@@ -174,22 +180,16 @@
         "name": "Forebrothers Signis & Gron"
     },
     {
-        "name": "First Sinner"
-    },
-    {
         "name": "Defeat a Covetous Pilgrim"
     },
     {
         "name": "Defeat a Cogwork Clapper"
     },
     {
-        "name": "Splinter Sister"
+        "name": "Sister Splinter"
     },
     {
-        "name": "The Unraveled"
-    },
-    {
-        "name": "Voltwyrm"
+        "name": "Voltvyrm"
     },
     {
         "name": "Skull Tyrant"
@@ -246,13 +246,13 @@
         "name": "Obtain Mossberry Soup"
     },
     {
+        "name": "Upgrade Druid's Eye"
+    },
+    {
         "name": "Twisted Bud"
     },
     {
         "name": "Pay for a Flea Spa"
-    },
-    {
-        "name": "Enter The Slab"
     },
     {
         "name": "1 Extra Mask"
@@ -276,10 +276,19 @@
         "name": "Free 8 fleas"
     },
     {
+        "name": "Meet Caravan at the Grand Gate"
+    },
+    {
         "name": "Sinner's Road & Marrows Flea [2]"
     },
     {
         "name": "Sands of Karak Flea [1]"
+    },
+    {
+        "name": "Mt. Fey Flea [1]"
+    },
+    {
+        "name": "Talk to Vog"
     },
     {
         "name": "1 Spool Upgrades"
@@ -300,7 +309,7 @@
         "name": "Obtain a Crafting Kit"
     },
     {
-        "name": "4 Memory Lockets"
+        "name": "1 Memory Lockets"
     },
     {
         "name": "5 Memory Lockets"
@@ -337,9 +346,6 @@
     },
     {
         "name": "Open White Ward"
-    },
-    {
-        "name": "Enter Grand Gate"
     },
     {
         "name": "Talk to Forge Daughter and Twelfth Architect"
