@@ -152,8 +152,7 @@
     {
       "name": "Delver's Drill",
       "types": [
-        "tool",
-        "hardsave"
+        "tool"
       ],
       "progression": [
         "act2"
@@ -163,7 +162,7 @@
       "name": "Wanderer's Crest",
       "types": [
         "upgrade",
-        "key"
+        "hardsave"
       ],
       "progression": [
         "walljump"
@@ -551,8 +550,7 @@
     {
       "name": "Forebrothers Signis & Gron",
       "types": [
-        "fight",
-        "key"
+        "fight"
       ],
       "progression": [
         "clawline"
@@ -588,7 +586,7 @@
       ]
     },
     {
-      "name": "Splinter Sister",
+      "name": "Sister Splinter",
       "types": [
         "fight"
       ],
@@ -607,7 +605,7 @@
       ]
     },
     {
-      "name": "Voltwyrm",
+      "name": "Voltvyrm",
       "types": [
         "fight",
         "tool"
@@ -849,8 +847,7 @@
     {
       "name": "Deep Docks Fleas [3]",
       "types": [
-        "flea",
-        "key"
+        "flea"
       ],
       "progression": [
         "clawline"
@@ -1177,6 +1174,12 @@
       "unique": [
         "Complete a Loddie Minigame",
         "Fail a Loddie Minigame"
+      ]
+    },
+    {
+      "unique":[
+        "Open White Ward",
+        "Injector Band"
       ]
     }
   ]
