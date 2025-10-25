@@ -62,11 +62,11 @@ def prog_options():
 @app_commands.choices(progression=prog_options())
 async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice[str]] = None):
     """Generates a new board for bingosync."""
-    if progression == "Act 1 Only":
+    if progression.value == "Act 1 Only":
         noTags = ["act2", "clawline", "feydown"]
-    elif progression == "No Clawline":
+    elif progression.value == "No Clawline":
         noTags = ["clawline", "feydown"]
-    elif progression == "No Feydown":
+    elif progression.value == "No Feydown":
         noTags = ["feydown"]
     else:
         noTags = []
