@@ -1,5 +1,6 @@
 import discord, board, os, json
 from discord import app_commands
+from typing import Optional
 
 CONFIG_PATH = os.path.join("config","settings.dat")
 
@@ -52,10 +53,24 @@ async def on_ready():
 async def on_app_command_error(interaction, error):
     await interaction.response.send_message(f"The following error was encountered: {str(error.__cause__)}. Let Abyss know!", ephemeral=True)
 
+def prog_options():
+    opt = ["Act 1 Only", "No Clawline", "No Feydown"]
+    return [app_commands.Choice(name=i, value=i) for i in opt]
+
 @client.tree.command()
-async def newboard(interaction: discord.Interaction):
-    """Generates a new board with default settings."""
-    thisBoard = board.defaultBingosyncBoard()
+@app_commands.describe(progression="Limit the highest progression needed for any goal.")
+@app_commands.choices(progression=prog_options())
+async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice(str)] = None):
+    """Generates a new board for bingosync."""
+    if progression == "Act 1 Only":
+        noTags = ["act2", "clawline", "feydown"]
+    elif progression == "No Clawline":
+        noTags = ["clawline", "feydown"]
+    elif progression == "No Feydown":
+        noTags = ["feydown"]
+    else:
+        noTags = []
+    thisBoard = board.bingosyncBoard(noTags=noTags)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 if __name__ == "__main__":
