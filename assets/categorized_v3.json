@@ -321,6 +321,24 @@
       ]
     },
     {
+      "name": "Slab Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "feydown"
+      ]
+    },
+    {
+      "name": "Bilewater Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "feydown"
+      ]
+    },
+    {
       "name": "Memory Crystal",
       "types": [
         "tool"
@@ -506,8 +524,7 @@
       ],
       "progression": [
         "widow"
-      ],
-      "weight" : 2
+      ]
     },
     {
       "name": "Phantom",
@@ -557,17 +574,6 @@
       ]
     },
     {
-      "name": "First Sinner",
-      "types": [
-        "fight",
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "feydown"
-      ]
-    },
-    {
       "name": "Defeat a Covetous Pilgrim",
       "types": [
         "fight"
@@ -592,16 +598,6 @@
       ],
       "progression": [
         "cloak"
-      ]
-    },
-    {
-      "name": "The Unraveled",
-      "types": [
-        "fight",
-        "ww"
-      ],
-      "progression": [
-        "clawline"
       ]
     },
     {
@@ -777,6 +773,16 @@
       ]
     },
     {
+      "name": "Upgrade Druid's Eye",
+      "types": [
+        "collection",
+        "tool"
+      ],
+      "progression": [
+        "feydown"
+      ]
+    },
+    {
       "name": "Twisted Bud",
       "types": [
         "collection"
@@ -795,16 +801,6 @@
         "walljump"
       ],
       "weight" : 2
-    },
-    {
-      "name": "Enter The Slab",
-      "types": [
-        "location"
-      ],
-      "progression": [
-        "act2",
-        "feydown"
-      ]
     },
     {
       "name": "1 Extra Mask",
@@ -872,6 +868,15 @@
       ]
     },
     {
+      "name": "Meet Caravan at the Grand Gate",
+      "types": [
+        "flea"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
       "name": "Sinner's Road & Marrows Flea [2]",
       "types": [
         "flea"
@@ -887,6 +892,26 @@
       ],
       "progression": [
         "clawline"
+      ]
+    },
+    {
+      "name": "Mt. Fey Flea [1]",
+      "types": [
+        "flea"
+      ],
+      "progression": [
+        "clawline"
+      ]
+    },
+    {
+      "name": "Talk to Vog",
+      "types": [
+        "flea",
+        "npc",
+        "location"
+      ],
+      "progression": [
+        "feydown"
       ]
     },
     {
@@ -1135,12 +1160,6 @@
     },
     {
       "unique": [
-        "Any Cogheart Piece",
-        "Enter The Slab"
-      ]
-    },
-    {
-      "unique": [
         "Underworks Ventrica",
         "Pay To Confess"
       ]
@@ -1180,6 +1199,31 @@
       "unique":[
         "Open White Ward",
         "Injector Band"
+      ]
+    },
+    {
+      "unique" : [
+        "Talk to Vog",
+        "Talk to Huntress"
+      ]
+    },
+    {
+      "unique" : [
+        "Mt. Fey Flea [1]",
+        "Memory Crystal"
+      ]
+    },
+    {
+      "unique" : [
+        "Free 8 Fleas",
+        "Meet Caravan at the Grand Gate",
+        "Meet Caravan in Greymoor"
+      ]
+    },
+    {
+      "unique": [
+        "Talk to Shakra in Bilewater",
+        "Bilewater Mask Shard"
       ]
     }
   ]
