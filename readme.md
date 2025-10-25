@@ -7,6 +7,7 @@ The up-to-date lockout.live and bingosync files live in assets/generated/.
 Add the bot to your user account or server via [this link!](https://discord.com/oauth2/authorize?client_id=1429591758248874105)
 
 - newboard
+
 Very simple command that spits out a Bingosync-formatted list. Set the game to Custom (Advanced) and the variant to "Fixed Board" to use.
 
 ## Goal contribution
