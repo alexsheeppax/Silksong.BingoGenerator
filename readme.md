@@ -10,6 +10,10 @@ Add the bot to your user account or server via [this link!](https://discord.com/
 
 Very simple command that spits out a Bingosync-formatted list. Set the game to Custom (Advanced) and the variant to "Fixed Board" to use.
 
+- advancedboard
+
+Command that allows exclusion of arbitrary tags (types and/or progression) from goals. Ex: `flea, key, feydown` would generate a board without any flea goals, no simple key requirements, and no feydown cloak requirements.
+
 ## Goal contribution
 The current list of goals is "categorized_v3.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
 

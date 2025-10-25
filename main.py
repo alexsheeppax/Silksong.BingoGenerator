@@ -73,5 +73,13 @@ async def newboard(interaction: discord.Interaction, progression: Optional[app_c
     thisBoard = board.bingosyncBoard(noTags=noTags)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
+@client.tree.command()
+@app_commands.describe(tags="Comma-seperated tags to exclude from board generation")
+async def advancedboard(interaction: discord.Interaction, tags: str):
+    """Generates a new board with specific tags excluded."""
+    noTags = [t.strip() for t in tags.split(",")]
+    thisBoard = board.bingosyncBoard(noTags=noTags)
+    await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
+    
 if __name__ == "__main__":
     client.run(config()["token"])
