@@ -60,7 +60,7 @@ def prog_options():
 @client.tree.command()
 @app_commands.describe(progression="Limit the highest progression needed for any goal.")
 @app_commands.choices(progression=prog_options())
-async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice(str)] = None):
+async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice[str]] = None):
     """Generates a new board for bingosync."""
     if progression == "Act 1 Only":
         noTags = ["act2", "clawline", "feydown"]
