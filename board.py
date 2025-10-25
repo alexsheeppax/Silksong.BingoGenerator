@@ -39,16 +39,27 @@ LL_LIMITS = {
             }
         }
 
-def getAllGoals():
+def getAllGoals(noTags=[]):
     """
     Loads the file given in variables at the top of the script and returns the parts.
     Returns list of Goal dictionaries and list of Exclusive lists.
     """
     with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
         catList = json.load(f)
+    #can't modify list during iteration so keep track of removables here
+    remGoals = []
     for g in catList["goals"]: #add weight=1 to all non-weighted goals for later
         if "weight" not in g.keys():
             g["weight"] = 1
+        #check if we should exclude the goal based on options passed
+        goalTags = g["types"] + g["progression"]
+        for tag in goalTags:
+            if tag in noTags:
+                remGoals.append(g)
+                break
+    for g in remGoals:
+        if g in catList["goals"]: #in case goal got added to remList twice; don't want to error out due to typo or w/e
+            catList["goals"].remove(g)
     return catList["goals"], [u["unique"] for u in catList["exclusions"]]
 
 def findExclusions(goalName, exclusionList):
@@ -89,11 +100,11 @@ def board(allGoals:dict, exclusionList):
     random.shuffle(goals) #mix em all up
     return goals
 
-def defaultBingosyncBoard():
+def bingosyncBoard(noTags=[]):
     """
-    Generates a board using the default settings and returns a bingosync formatted list.
+    Generates a board and returns a bingosync formatted list.
     """
-    boardList = board(*getAllGoals())
+    boardList = board(*getAllGoals(noTags=noTags))
     out = []
     for name in boardList:
         out.append({"name": name})
@@ -186,4 +197,4 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    print(json.dumps(defaultBingosyncBoard()))
+    print(json.dumps(bingosyncBoard(noTags=["clawline","feydown"])))
