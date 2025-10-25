@@ -393,10 +393,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "clawline",
-                "feydown"
+                "clawline"
             ],
             "line_categories": [
+                "faydown",
                 "upgrade"
             ],
             "tooltip": "",
@@ -475,10 +475,9 @@
             "goal": "Slab Mask Shard",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "upgrade"
             ],
             "tooltip": "",
@@ -488,10 +487,9 @@
             "goal": "Bilewater Mask Shard",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "upgrade"
             ],
             "tooltip": "",
@@ -591,10 +589,9 @@
             "goal": "Blasted Steps Mask Shard",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "upgrade"
             ],
             "tooltip": "",
@@ -790,10 +787,9 @@
             "goal": "Disgraced Chef Lugoli",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "fight"
             ],
             "tooltip": "",
@@ -804,10 +800,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "feydown",
                 "tool"
             ],
             "line_categories": [
+                "faydown",
                 "fight"
             ],
             "tooltip": "",
@@ -870,10 +866,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "feydown",
                 "tool"
             ],
             "line_categories": [
+                "faydown",
                 "fight"
             ],
             "tooltip": "",
@@ -978,10 +974,9 @@
             "goal": "Talk to Mask Maker",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "npc"
             ],
             "tooltip": "",
@@ -991,10 +986,9 @@
             "goal": "Buy From Grindle",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "npc"
             ],
             "tooltip": "",
@@ -1030,10 +1024,9 @@
             "goal": "Fight Big Flea",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "fight"
             ],
             "tooltip": "",
@@ -1113,10 +1106,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "feydown",
                 "tool"
             ],
             "line_categories": [
+                "faydown",
                 "collection"
             ],
             "tooltip": "",
@@ -1290,10 +1283,10 @@
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "feydown",
                 "flea"
             ],
             "line_categories": [
+                "faydown",
                 "npc",
                 "location"
             ],
@@ -1434,10 +1427,9 @@
             "goal": "Talk to Shakra in Bilewater",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "npc",
                 "location"
             ],
@@ -1448,10 +1440,9 @@
             "goal": "Talk to Huntress",
             "range": [],
             "individual_limit": 1,
-            "board_categories": [
-                "feydown"
-            ],
+            "board_categories": [],
             "line_categories": [
+                "faydown",
                 "npc"
             ],
             "tooltip": "",

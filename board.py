@@ -197,4 +197,4 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    print(json.dumps(bingosyncBoard(noTags=["clawline","feydown"])))
+    print(json.dumps(bingosyncBoard(noTags=["clawline","faydown"])))

@@ -12,7 +12,7 @@ Very simple command that spits out a Bingosync-formatted list. Set the game to C
 
 - advancedboard
 
-Command that allows exclusion of arbitrary tags (types and/or progression) from goals. Ex: `flea, key, feydown` would generate a board without any flea goals, no simple key requirements, and no feydown cloak requirements.
+Command that allows exclusion of arbitrary tags (types and/or progression) from goals. Ex: `flea, key, faydown` would generate a board without any flea goals, no simple key requirements, and no faydown cloak requirements.
 
 ## Goal contribution
 The current list of goals is "categorized_v3.json" in the Assets folder. To add a goal or exclusion, add any necessary lines in the relevant sections in that file.
@@ -23,7 +23,7 @@ Types:
 "craft", "flea", "key", "tool", "melody", "quest", "locket", "upgrade", "fight", "npc", "location", "collection", "relic", "hardsave"
 
 Progression:
-"early", "dash", "cloak", "walljump", "act2", "clawline", "feydown"
+"early", "dash", "cloak", "walljump", "act2", "clawline", "faydown"
 
 Weights:
 If not given, a weight is assumed to be 1. A weight of 2 means a goal is twice as likely to be picked. This can be a decimal if you really want that kind of granularity. **Only applies to the /newboard BingyFlea command.**

@@ -54,7 +54,7 @@ async def on_app_command_error(interaction, error):
     await interaction.response.send_message(f"The following error was encountered: {str(error.__cause__)}. Let Abyss know!", ephemeral=True)
 
 def prog_options():
-    opt = ["Act 1 Only", "No Clawline", "No Feydown"]
+    opt = ["Act 1 Only", "No Clawline", "No Faydown"]
     return [app_commands.Choice(name=i, value=i) for i in opt]
 
 @client.tree.command()
@@ -63,11 +63,11 @@ def prog_options():
 async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice[str]] = None):
     """Generates a new board for bingosync."""
     if progression.value == "Act 1 Only":
-        noTags = ["act2", "clawline", "feydown"]
+        noTags = ["act2", "clawline", "faydown"]
     elif progression.value == "No Clawline":
-        noTags = ["clawline", "feydown"]
-    elif progression.value == "No Feydown":
-        noTags = ["feydown"]
+        noTags = ["clawline", "faydown"]
+    elif progression.value == "No Faydown":
+        noTags = ["faydown"]
     else:
         noTags = []
     thisBoard = board.bingosyncBoard(noTags=noTags)
@@ -80,6 +80,6 @@ async def advancedboard(interaction: discord.Interaction, tags: str):
     noTags = [t.strip() for t in tags.split(",")]
     thisBoard = board.bingosyncBoard(noTags=noTags)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
-    
+
 if __name__ == "__main__":
     client.run(config()["token"])
