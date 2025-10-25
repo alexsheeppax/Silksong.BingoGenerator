@@ -507,7 +507,8 @@
       ],
       "progression": [
         "widow"
-      ]
+      ],
+      "weight" : 2
     },
     {
       "name": "Phantom",
@@ -1055,15 +1056,6 @@
       ]
     },
     {
-      "name": "Enter Grand Gate",
-      "types": [
-        "location"
-      ],
-      "progression": [
-        "act2"
-      ]
-    },
-    {
       "name": "Talk to Forge Daughter and Twelfth Architect",
       "types": [
         "npc"
@@ -1136,12 +1128,6 @@
       "unique": [
         "Win Against Lumble The Lucky",
         "Magnetite Dice & Magnetite Brooch"
-      ]
-    },
-    {
-      "unique": [
-        "Last Judge",
-        "Enter Grand Gate"
       ]
     },
     {
