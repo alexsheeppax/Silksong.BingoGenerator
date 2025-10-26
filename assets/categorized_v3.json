@@ -373,8 +373,7 @@
     {
       "name": "Shellwood Mask Shard",
       "types": [
-        "upgrade",
-        "lockout"
+        "upgrade"
       ],
       "progression": [
         "cloak"
@@ -390,6 +389,15 @@
       ]
     },
     {
+      "name": "Cogwork Core Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
       "name": "Memory Crystal",
       "types": [
         "tool"
@@ -402,7 +410,7 @@
       "name": "Injector Band",
       "types": [
         "tool",
-        "ww"
+        "lockout"
       ],
       "progression": [
         "act2"
@@ -451,8 +459,7 @@
       "name": "Rosary Canon",
       "types": [
         "tool",
-        "key",
-        "hh"
+        "key"
       ],
       "progression": [
         "clawline"
@@ -462,8 +469,7 @@
       "name": "Cogfly",
       "types": [
         "tool",
-        "craft",
-        "hh"
+        "craft"
       ],
       "progression": [
         "clawline"
@@ -536,8 +542,7 @@
     {
       "name": "Fourth Chorus",
       "types": [
-        "fight",
-        "lockout"
+        "fight"
       ],
       "progression": [
         "cloak"
@@ -611,8 +616,7 @@
     {
       "name": "Defeat a Covetous Pilgrim",
       "types": [
-        "fight",
-        "lockout"
+        "fight"
       ],
       "progression": [
         "cloak"
@@ -630,8 +634,7 @@
     {
       "name": "Sister Splinter",
       "types": [
-        "fight",
-        "lockout"
+        "fight"
       ],
       "progression": [
         "cloak"
@@ -854,8 +857,7 @@
     {
       "name": "Shellwood & Bellhart Fleas [2]",
       "types": [
-        "flea",
-        "lockout"
+        "flea"
       ],
       "progression": [
         "walljump"
@@ -969,9 +971,6 @@
       "range": [
         1,
         2
-      ],
-      "lockout-range": [
-        1
       ]
     },
     {
@@ -984,9 +983,6 @@
       ],
       "range": [
         4, 8
-      ],
-      "lockout-range": [
-        4
       ]
     },
     {
@@ -1004,16 +1000,12 @@
     {
       "name": "Break {{X}} Rosary Strings",
       "types": [
-        "collection",
-        "lockout"
+        "collection"
       ],
       "progression": [
         "widow"
       ],
       "range": [
-        6
-      ],
-      "lockout-range": [
         6
       ]
     },
@@ -1174,7 +1166,7 @@
       "name": "Open White Ward",
       "types": [
         "location",
-        "ww"
+        "lockout"
       ],
       "progression": [
         "act2"
@@ -1216,8 +1208,7 @@
       "name": "Conductor's Melody",
       "types": [
         "fight",
-        "melody",
-        "hh"
+        "melody"
       ],
       "progression": [
         "clawline"
@@ -1349,6 +1340,12 @@
       "unique": [
         "Shellwood Mask Shard",
         "Defeat a Covetous Pilgrim"
+      ]
+    },
+    {
+      "unique": [
+        "Cogwork Core Mask Shard",
+        "Defeat a Cogwork Clapper"
       ]
     }
   ]
