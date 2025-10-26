@@ -264,7 +264,8 @@
     {
       "name": "Faydown Cloak",
       "types": [
-        "upgrade"
+        "upgrade",
+        "hardsave"
       ],
       "progression": [
         "clawline",
