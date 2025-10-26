@@ -85,7 +85,7 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, progr
     bsSession = network.bingosyncClient()
     n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
     bsSession.close()
-    await interaction.response.send_message(f"Room {n} created at https://bingosync.com/room/{rId}/")
+    await interaction.response.send_message(f"Room {n} created at https://bingosync.com/room/{rId}")
 
 @client.tree.command()
 @app_commands.describe(tags="Comma-seperated tags to exclude from board generation")
