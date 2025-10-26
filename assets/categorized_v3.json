@@ -1005,7 +1005,8 @@
     {
       "name": "Break {{X}} Rosary Strings",
       "types": [
-        "collection"
+        "collection",
+        "lockout"
       ],
       "progression": [
         "widow"
