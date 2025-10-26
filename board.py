@@ -180,6 +180,27 @@ def bingosyncFormat():
             goalsList.append({"name": goalDic["name"]})
     return goalsList
 
+def readableFormat():
+    """
+    Outputs a list of goals in nice, readable formatting.
+    """
+    with open(os.path.join(ASSETS_PATH, CAT_FILENAME)) as f:
+        catList = json.load(f)
+    linesList = []
+    for goalDic in catList["goals"]:
+        if "range" in goalDic.keys():
+            for x in goalDic["range"]:
+                boldName = f"**{goalDic['name'].replace('{{X}}', str(x))}**"
+                progression = goalDic["progression"]
+                types = goalDic["types"]
+                linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n")
+        else:
+            boldName=f"**{goalDic['name']}**"
+            progression = goalDic["progression"]
+            types = goalDic["types"]
+            linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n")
+    return linesList
+
 if __name__ == "__main__":
     ####dump the current format for lockout.live
     with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_lockoutlive.json"), "w") as f:
@@ -189,6 +210,10 @@ if __name__ == "__main__":
     with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_bingosync.json"), "w") as f:
         json.dump(bingosyncFormat(), f, indent=4)
     #print("File dumped.")
+
+    ####Generate sophont-readable list of goals
+    with open(os.path.join(ASSETS_PATH,COMPUTED_SUBDIR,"silksong_readable.md"), "w") as f:
+        f.writelines(readableFormat())
 
     ####Test bingosync format
     #print(json.dumps(bingosyncFormat()))
