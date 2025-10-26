@@ -79,7 +79,7 @@ def removeGoalByName(goalList:list, toRemove):
             listCopy.remove(goal) #can't change mutable types during iteration
     return listCopy
 
-def board(allGoals:dict, exclusionList):
+def board(allGoals:dict, exclusionList, lockout = False):
     """
     Generates a list of 25 goals from the dict of goals pass as a dictionary. Goals will have a name and optionally exclusions.
     Returns a list of goal names.
@@ -90,7 +90,10 @@ def board(allGoals:dict, exclusionList):
         for excludedGoal in findExclusions(newGoal["name"], exclusionList):
             allGoals = removeGoalByName(allGoals, excludedGoal)
         if "range" in newGoal.keys(): #goal has a range
-            goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["range"]))))
+            if not lockout or "lockout-range" not in newGoal.keys(): #use base range
+                goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["range"]))))
+            else: #use lockout range
+                goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["lockout-range"]))))
         else: #no range, ez
             goals.append(newGoal["name"])
         try:
@@ -104,7 +107,7 @@ def bingosyncBoard(noTags=[]):
     """
     Generates a board and returns a bingosync formatted list.
     """
-    boardList = board(*getAllGoals(noTags=noTags))
+    boardList = board(*getAllGoals(noTags=noTags), lockout=("lockout" in noTags))
     out = []
     for name in boardList:
         out.append({"name": name})
@@ -222,4 +225,4 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    print(json.dumps(bingosyncBoard(noTags=["clawline","faydown"])))
+    print(json.dumps(bingosyncBoard(noTags=["lockout"])))
