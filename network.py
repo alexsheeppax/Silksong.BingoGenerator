@@ -76,7 +76,7 @@ class bingosyncClient():
             #save the room ID and then disconnect from it
             self.roomId = response.headers["location"].split("/")[2]
             self.session.get(f"https://bingosync.com/room/{self.roomId}/disconnect")
-        return self.roomId
+        return formData["room_name"], self.roomId
 
     def updateCard(self, roomID, boardJSON, hideCard = True, lockout = False, roomName=None, passphrase="fast", seed = ""):
         """

@@ -1,4 +1,4 @@
-import discord, board, os, json
+import discord, board, os, json, network
 from discord import app_commands
 from typing import Optional
 
@@ -57,11 +57,7 @@ def prog_options():
     opt = ["Act 1 Only", "No Clawline", "No Faydown"]
     return [app_commands.Choice(name=i, value=i) for i in opt]
 
-@client.tree.command()
-@app_commands.describe(progression="Limit the highest progression needed for any goal.")
-@app_commands.choices(progression=prog_options())
-async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice[str]] = None):
-    """Generates a new board for bingosync."""
+def progStringToTags(progression):
     if progression is None:
         noTags = []
     elif progression.value == "Act 1 Only":
@@ -70,8 +66,26 @@ async def newboard(interaction: discord.Interaction, progression: Optional[app_c
         noTags = ["clawline", "faydown"]
     elif progression.value == "No Faydown":
         noTags = ["faydown"]
+    return noTags
+
+@client.tree.command()
+@app_commands.describe(progression="Limit the highest progression needed for any goal.")
+@app_commands.choices(progression=prog_options())
+async def newboard(interaction: discord.Interaction, progression: Optional[app_commands.Choice[str]] = None):
+    """Generates a new board for bingosync."""
+    noTags = progStringToTags(progression)
     thisBoard = board.bingosyncBoard(noTags=noTags)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
+
+@client.tree.command()
+async def newroom(interaction: discord.Interaction, lockout: bool = False, progression: Optional[app_commands.Choice[str]] = None):
+    """Generates a new board and creates a bingosync room."""
+    noTags = progStringToTags(progression)
+    thisBoard = board.bingosyncBoard(noTags=noTags)
+    bsSession = network.bingosyncClient()
+    n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
+    bsSession.close()
+    await interaction.response.send_message(f"Room {n} created at https://bingosync.com/room/{rId}/")
 
 @client.tree.command()
 @app_commands.describe(tags="Comma-seperated tags to exclude from board generation")
