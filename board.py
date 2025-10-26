@@ -193,12 +193,12 @@ def readableFormat():
                 boldName = f"**{goalDic['name'].replace('{{X}}', str(x))}**"
                 progression = goalDic["progression"]
                 types = goalDic["types"]
-                linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n")
+                linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n\n")
         else:
             boldName=f"**{goalDic['name']}**"
             progression = goalDic["progression"]
             types = goalDic["types"]
-            linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n")
+            linesList.append(f"{boldName} | Progression level(s): {progression} | Other tags: {types}\n\n")
     return linesList
 
 if __name__ == "__main__":
