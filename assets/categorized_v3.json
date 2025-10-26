@@ -1,49 +1,64 @@
 {
   "goals": [
     {
-      "name": "2 Donations Quests",
+      "name": "{{X}} Donations Quests",
       "types": [
         "quest"
       ],
       "progression": [
         "cloak"
+      ],
+      "range": [
+        2
       ]
     },
     {
-      "name": "2 Hunt Quests",
+      "name": "{{X}} Hunt Quests",
       "types": [
         "quest"
       ],
       "progression": [
         "cloak"
+      ],
+      "range": [
+        2
       ]
     },
     {
-      "name": "2 Wayfarer Quests",
+      "name": "{{X}} Wayfarer Quests",
       "types": [
         "quest",
         "flea"
       ],
       "progression": [
         "widow"
+      ],
+      "range": [
+        2
       ]
     },
     {
-      "name": "2 Gather Quests",
+      "name": "{{X}} Gather Quests",
       "types": [
         "quest"
       ],
       "progression": [
         "walljump"
+      ],
+      "range": [
+        2
       ]
     },
     {
-      "name": "Complete 5 Quests",
+      "name": "Complete {{X}} Quests",
       "types": [
         "quest"
       ],
       "progression": [
         "cloak"
+      ],
+      "range": [
+        5
       ]
     },
     {
@@ -75,42 +90,54 @@
       ]
     },
     {
-      "name": "3 Red Tools",
+      "name": "{{X}} Red Tools",
       "types": [
         "tool",
         "craft"
       ],
       "progression": [
         "dash"
+      ],
+      "range": [
+        3
       ]
     },
     {
-      "name": "3 Blue Tools",
+      "name": "{{X}} Blue Tools",
       "types": [
         "tool"
       ],
       "progression": [
         "dash"
+      ],
+      "range": [
+        3
       ]
     },
     {
-      "name": "3 Yellow Tools",
+      "name": "{{X}} Yellow Tools",
       "types": [
         "tool"
       ],
       "progression": [
         "early",
         "dash"
+      ],
+      "range": [
+        3
       ]
     },
     {
-      "name": "2 of each tool type",
+      "name": "{{X}} of each tool type",
       "types": [
         "tool"
       ],
       "progression": [
         "early",
         "dash"
+      ],
+      "range": [
+        2
       ]
     },
     {
@@ -192,7 +219,8 @@
       "name": "Clawline",
       "types": [
         "upgrade",
-        "hardsave"
+        "hardsave",
+        "lockout"
       ],
       "progression": [
         "act2",
@@ -273,13 +301,16 @@
       ]
     },
     {
-      "name": "3 Silk Skills",
+      "name": "{{X}} Silk Skills",
       "types": [
         "upgrade",
         "hardsave"
       ],
       "progression": [
         "walljump"
+      ],
+      "range": [
+        3
       ]
     },
     {
@@ -358,6 +389,15 @@
       ]
     },
     {
+      "name": "Cogwork Core Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
       "name": "Memory Crystal",
       "types": [
         "tool"
@@ -370,7 +410,7 @@
       "name": "Injector Band",
       "types": [
         "tool",
-        "ww"
+        "lockout"
       ],
       "progression": [
         "act2"
@@ -419,8 +459,7 @@
       "name": "Rosary Canon",
       "types": [
         "tool",
-        "key",
-        "hh"
+        "key"
       ],
       "progression": [
         "clawline"
@@ -430,8 +469,7 @@
       "name": "Cogfly",
       "types": [
         "tool",
-        "craft",
-        "hh"
+        "craft"
       ],
       "progression": [
         "clawline"
@@ -485,7 +523,8 @@
     {
       "name": "Widow",
       "types": [
-        "fight"
+        "fight",
+        "lockout"
       ],
       "progression": [
         "walljump"
@@ -773,13 +812,16 @@
       ]
     },
     {
-      "name": "1 Extra Mask",
+      "name": "{{X}} Extra Mask",
       "types": [
         "upgrade"
       ],
       "progression": [
         "dash",
         "cloak"
+      ],
+      "range": [
+        1
       ]
     },
         {
@@ -840,12 +882,15 @@
       ]
     },
     {
-      "name": "Free 8 fleas",
+      "name": "Free {{X}} fleas",
       "types": [
         "flea"
       ],
       "progression": [
-        "act2"
+        "cloak"
+      ],
+      "range": [
+        8
       ]
     },
     {
@@ -858,7 +903,7 @@
       ]
     },
     {
-      "name": "Sinner's Road & Marrows Flea [2]",
+      "name": "Sinner's Road & Marrow Flea [2]",
       "types": [
         "flea"
       ],
@@ -929,39 +974,72 @@
       ]
     },
     {
-      "name": "Have 4 Rosary Strings",
+      "name": "Have {{X}} Rosary Strings",
       "types": [
         "collection"
       ],
       "progression": [
         "dash"
+      ],
+      "range": [
+        4, 8
       ]
     },
     {
-      "name": "Break 6 Rosary Strings",
+      "name": "Have {{X}} Rosary Necklaces",
       "types": [
         "collection"
       ],
       "progression": [
         "widow"
+      ],
+      "range": [
+        3
       ]
     },
     {
-      "name": "Obtain a Tool Pouch Upgrade",
+      "name": "Break {{X}} Rosary Strings",
+      "types": [
+        "collection"
+      ],
+      "progression": [
+        "widow"
+      ],
+      "range": [
+        6
+      ]
+    },
+    {
+      "name": "Obtain {{X}} Tool Pouch Upgrade",
       "types": [
         "collection"
       ],
       "progression": [
         "cloak"
+      ],
+      "range": [
+        1
       ]
     },
     {
-      "name": "Obtain a Crafting Kit",
+      "name": "Obtain {{X}} Crafting Kit",
       "types": [
         "collection"
       ],
       "progression": [
         "dash"
+      ],
+      "range": [
+        1
+      ]
+    },
+    {
+      "name": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
+      "types": [
+        "collection"
+      ],
+      "progression": [
+        "widow"
       ]
     },
     {
@@ -971,11 +1049,15 @@
         "locket"
       ],
       "progression": [
-        "cloak"
+        "cloak",
+        "walljump"
       ],
       "range": [
         1,
         5
+      ],
+      "lockout-range": [
+        1
       ]
     },
     {
@@ -1004,12 +1086,19 @@
       ]
     },
     {
-      "name": "8 Shakra Locations (including hubs)",
+      "name": "{{X}} Shakra Locations (including hubs)",
       "types": [
         "npc"
       ],
       "progression": [
         "cloak"
+      ],
+      "range": [
+        5,
+        8
+      ],
+      "lockout-range": [
+        5
       ]
     },
     {
@@ -1051,12 +1140,17 @@
       ]
     },
     {
-      "name": "Obtain 2 Beast Shards",
+      "name": "Obtain {{X}} Beast Shards",
       "types": [
         "fight"
       ],
       "progression": [
-        "early"
+        "early",
+        "walljump"
+      ],
+      "range": [
+        2,
+        4
       ]
     },
     {
@@ -1072,7 +1166,7 @@
       "name": "Open White Ward",
       "types": [
         "location",
-        "ww"
+        "lockout"
       ],
       "progression": [
         "act2"
@@ -1088,12 +1182,16 @@
       ]
     },
     {
-      "name": "Any Cogheart Piece",
+      "name": "{{X}} Cogheart Pieces",
       "types": [
         "collection"
       ],
       "progression": [
         "act2"
+      ],
+      "range": [
+        1,
+        2
       ]
     },
     {
@@ -1110,8 +1208,7 @@
       "name": "Conductor's Melody",
       "types": [
         "fight",
-        "melody",
-        "hh"
+        "melody"
       ],
       "progression": [
         "clawline"
@@ -1174,8 +1271,8 @@
     },
     {
       "unique": [
-        "Have 4 Rosary Strings",
-        "Break 6 Rosary Strings"
+        "Have {{X}} Rosary Strings",
+        "Break {{X}} Rosary Strings"
       ]
     },
     {
@@ -1216,7 +1313,7 @@
     },
     {
       "unique" : [
-        "Free 8 Fleas",
+        "Free {{X}} Fleas",
         "Meet Caravan at the Grand Gate",
         "Meet Caravan in Greymoor"
       ]
@@ -1225,6 +1322,30 @@
       "unique": [
         "Talk to Shakra in Bilewater",
         "Bilewater Mask Shard"
+      ]
+    },
+    {
+      "unique": [
+        "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
+        "Obtain {{X}} Tool Pouch Upgrade"
+      ]
+    },
+    {
+      "unique": [
+        "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
+        "Obtain {{X}} Crafting Kit"
+      ]
+    },
+    {
+      "unique": [
+        "Shellwood Mask Shard",
+        "Defeat a Covetous Pilgrim"
+      ]
+    },
+    {
+      "unique": [
+        "Cogwork Core Mask Shard",
+        "Defeat a Cogwork Clapper"
       ]
     }
   ]
