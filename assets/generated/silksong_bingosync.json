@@ -111,6 +111,9 @@
         "name": "Blasted Steps Mask Shard"
     },
     {
+        "name": "Cogwork Core Mask Shard"
+    },
+    {
         "name": "Memory Crystal"
     },
     {
@@ -273,7 +276,7 @@
         "name": "Meet Caravan at the Grand Gate"
     },
     {
-        "name": "Sinner's Road & Marrows Flea [2]"
+        "name": "Sinner's Road & Marrow Flea [2]"
     },
     {
         "name": "Sands of Karak Flea [1]"
@@ -300,13 +303,22 @@
         "name": "Have 4 Rosary Strings"
     },
     {
+        "name": "Have 8 Rosary Strings"
+    },
+    {
+        "name": "Have 3 Rosary Necklaces"
+    },
+    {
         "name": "Break 6 Rosary Strings"
     },
     {
-        "name": "Obtain a Tool Pouch Upgrade"
+        "name": "Obtain 1 Tool Pouch Upgrade"
     },
     {
-        "name": "Obtain a Crafting Kit"
+        "name": "Obtain 1 Crafting Kit"
+    },
+    {
+        "name": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits"
     },
     {
         "name": "1 Memory Lockets"
@@ -322,6 +334,9 @@
     },
     {
         "name": "Obtain 4 Different Types of Relic"
+    },
+    {
+        "name": "5 Shakra Locations (including hubs)"
     },
     {
         "name": "8 Shakra Locations (including hubs)"
@@ -342,6 +357,9 @@
         "name": "Obtain 2 Beast Shards"
     },
     {
+        "name": "Obtain 4 Beast Shards"
+    },
+    {
         "name": "Bilewater Bellway"
     },
     {
@@ -351,7 +369,10 @@
         "name": "Talk to Forge Daughter and Twelfth Architect"
     },
     {
-        "name": "Any Cogheart Piece"
+        "name": "1 Cogheart Pieces"
+    },
+    {
+        "name": "2 Cogheart Pieces"
     },
     {
         "name": "Architect's Melody"

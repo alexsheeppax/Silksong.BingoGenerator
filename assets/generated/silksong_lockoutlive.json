@@ -29,8 +29,10 @@
     },
     "objectives": [
         {
-            "goal": "2 Donations Quests",
-            "range": [],
+            "goal": "{{X}} Donations Quests",
+            "range": [
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
@@ -42,8 +44,10 @@
             "icons": []
         },
         {
-            "goal": "2 Hunt Quests",
-            "range": [],
+            "goal": "{{X}} Hunt Quests",
+            "range": [
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
@@ -55,8 +59,10 @@
             "icons": []
         },
         {
-            "goal": "2 Wayfarer Quests",
-            "range": [],
+            "goal": "{{X}} Wayfarer Quests",
+            "range": [
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump",
@@ -69,8 +75,10 @@
             "icons": []
         },
         {
-            "goal": "2 Gather Quests",
-            "range": [],
+            "goal": "{{X}} Gather Quests",
+            "range": [
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump"
@@ -82,8 +90,10 @@
             "icons": []
         },
         {
-            "goal": "Complete 5 Quests",
-            "range": [],
+            "goal": "Complete {{X}} Quests",
+            "range": [
+                5
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
@@ -135,8 +145,10 @@
             "icons": []
         },
         {
-            "goal": "3 Red Tools",
-            "range": [],
+            "goal": "{{X}} Red Tools",
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "dash",
@@ -148,8 +160,10 @@
             "icons": []
         },
         {
-            "goal": "3 Blue Tools",
-            "range": [],
+            "goal": "{{X}} Blue Tools",
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "dash",
@@ -160,8 +174,10 @@
             "icons": []
         },
         {
-            "goal": "3 Yellow Tools",
-            "range": [],
+            "goal": "{{X}} Yellow Tools",
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "early",
@@ -173,8 +189,10 @@
             "icons": []
         },
         {
-            "goal": "2 of each tool type",
-            "range": [],
+            "goal": "{{X}} of each tool type",
+            "range": [
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "early",
@@ -297,7 +315,8 @@
                 "hardsave"
             ],
             "line_categories": [
-                "upgrade"
+                "upgrade",
+                "lockout"
             ],
             "tooltip": "",
             "icons": []
@@ -404,8 +423,10 @@
             "icons": []
         },
         {
-            "goal": "3 Silk Skills",
-            "range": [],
+            "goal": "{{X}} Silk Skills",
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump",
@@ -525,6 +546,19 @@
             "icons": []
         },
         {
+            "goal": "Cogwork Core Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Memory Crystal",
             "range": [],
             "individual_limit": 1,
@@ -545,7 +579,7 @@
                 "tool"
             ],
             "line_categories": [
-                "ww"
+                "lockout"
             ],
             "tooltip": "",
             "icons": []
@@ -610,9 +644,7 @@
                 "tool",
                 "key"
             ],
-            "line_categories": [
-                "hh"
-            ],
+            "line_categories": [],
             "tooltip": "",
             "icons": []
         },
@@ -625,9 +657,7 @@
                 "tool",
                 "craft"
             ],
-            "line_categories": [
-                "hh"
-            ],
+            "line_categories": [],
             "tooltip": "",
             "icons": []
         },
@@ -704,7 +734,8 @@
                 "walljump"
             ],
             "line_categories": [
-                "fight"
+                "fight",
+                "lockout"
             ],
             "tooltip": "",
             "icons": []
@@ -1109,8 +1140,10 @@
             "icons": []
         },
         {
-            "goal": "1 Extra Mask",
-            "range": [],
+            "goal": "{{X}} Extra Mask",
+            "range": [
+                1
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "dash",
@@ -1199,11 +1232,13 @@
             "icons": []
         },
         {
-            "goal": "Free 8 fleas",
-            "range": [],
+            "goal": "Free {{X}} fleas",
+            "range": [
+                8
+            ],
             "individual_limit": 1,
             "board_categories": [
-                "act2",
+                "cloak",
                 "flea"
             ],
             "line_categories": [],
@@ -1223,7 +1258,7 @@
             "icons": []
         },
         {
-            "goal": "Sinner's Road & Marrows Flea [2]",
+            "goal": "Sinner's Road & Marrow Flea [2]",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -1318,8 +1353,11 @@
             "icons": []
         },
         {
-            "goal": "Have 4 Rosary Strings",
-            "range": [],
+            "goal": "Have {{X}} Rosary Strings",
+            "range": [
+                4,
+                8
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "dash"
@@ -1331,8 +1369,10 @@
             "icons": []
         },
         {
-            "goal": "Break 6 Rosary Strings",
-            "range": [],
+            "goal": "Have {{X}} Rosary Necklaces",
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump"
@@ -1344,8 +1384,25 @@
             "icons": []
         },
         {
-            "goal": "Obtain a Tool Pouch Upgrade",
-            "range": [],
+            "goal": "Break {{X}} Rosary Strings",
+            "range": [
+                6
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain {{X}} Tool Pouch Upgrade",
+            "range": [
+                1
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
@@ -1357,11 +1414,26 @@
             "icons": []
         },
         {
-            "goal": "Obtain a Crafting Kit",
-            "range": [],
+            "goal": "Obtain {{X}} Crafting Kit",
+            "range": [
+                1
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "dash"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
             ],
             "line_categories": [
                 "collection"
@@ -1377,7 +1449,8 @@
             ],
             "individual_limit": 1,
             "board_categories": [
-                "cloak"
+                "cloak",
+                "walljump"
             ],
             "line_categories": [
                 "collection",
@@ -1419,8 +1492,11 @@
             "icons": []
         },
         {
-            "goal": "8 Shakra Locations (including hubs)",
-            "range": [],
+            "goal": "{{X}} Shakra Locations (including hubs)",
+            "range": [
+                5,
+                8
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
@@ -1486,11 +1562,15 @@
             "icons": []
         },
         {
-            "goal": "Obtain 2 Beast Shards",
-            "range": [],
+            "goal": "Obtain {{X}} Beast Shards",
+            "range": [
+                2,
+                4
+            ],
             "individual_limit": 1,
             "board_categories": [
-                "early"
+                "early",
+                "walljump"
             ],
             "line_categories": [
                 "fight"
@@ -1520,7 +1600,7 @@
             ],
             "line_categories": [
                 "location",
-                "ww"
+                "lockout"
             ],
             "tooltip": "",
             "icons": []
@@ -1539,8 +1619,11 @@
             "icons": []
         },
         {
-            "goal": "Any Cogheart Piece",
-            "range": [],
+            "goal": "{{X}} Cogheart Pieces",
+            "range": [
+                1,
+                2
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "act2"
@@ -1574,8 +1657,7 @@
                 "melody"
             ],
             "line_categories": [
-                "fight",
-                "hh"
+                "fight"
             ],
             "tooltip": "",
             "icons": []
