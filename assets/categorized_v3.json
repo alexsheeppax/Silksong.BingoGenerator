@@ -199,8 +199,7 @@
       "name": "Reaper's Crest",
       "types": [
         "upgrade",
-        "hardsave",
-        "lockout"
+        "hardsave"
       ],
       "progression": [
         "cloak"
@@ -1344,6 +1343,12 @@
       "unique": [
         "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
         "Obtain {{X}} Crafting Kit"
+      ]
+    },
+    {
+      "unique": [
+        "Shellwood Mask Shard",
+        "Defeat a Covetous Pilgrim"
       ]
     }
   ]
