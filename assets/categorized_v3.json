@@ -340,6 +340,24 @@
       ]
     },
     {
+      "name": "Shellwood Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Blasted Steps Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
       "name": "Memory Crystal",
       "types": [
         "tool"
@@ -395,24 +413,6 @@
       ],
       "progression": [
         "widow"
-      ]
-    },
-    {
-      "name": "Shellwood Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Blasted Steps Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "faydown"
       ]
     },
     {
