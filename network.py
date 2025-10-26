@@ -61,7 +61,7 @@ class bingosyncClient():
         #need to update the following
         formData.update({
             "hide_card" : 1 if hideCard else 0,
-            "lockout_mode" : 0 if lockout else 1,
+            "lockout_mode" : 2 if lockout else 1,
             "custom_json" : boardJSON,
             "passphrase" : passphrase,
             "seed": seed
@@ -87,7 +87,7 @@ class bingosyncClient():
         formData.update({
             "room": roomID,
             "hide_card" : 1 if hideCard else 0,
-            "lockout_mode" : 0 if lockout else 1,
+            "lockout_mode" : 2 if lockout else 1,
             "custom_json" : boardJSON,
             "seed": seed
         })
