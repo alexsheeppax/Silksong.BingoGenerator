@@ -95,7 +95,7 @@
             "icons": []
         },
         {
-            "goal": "Complete A Delivery",
+            "goal": "Break a Courier Item",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -394,7 +394,8 @@
             "individual_limit": 1,
             "board_categories": [
                 "clawline",
-                "faydown"
+                "faydown",
+                "hardsave"
             ],
             "line_categories": [
                 "upgrade"
@@ -498,6 +499,32 @@
             "icons": []
         },
         {
+            "goal": "Shellwood Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Blasted Steps Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Memory Crystal",
             "range": [],
             "individual_limit": 1,
@@ -571,32 +598,6 @@
                 "craft"
             ],
             "line_categories": [],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Shellwood Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Blasted Steps Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
             "tooltip": "",
             "icons": []
         },
@@ -908,21 +909,6 @@
             "icons": []
         },
         {
-            "goal": "Meet Caravan in Greymoor",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "dash",
-                "tool",
-                "flea"
-            ],
-            "line_categories": [
-                "quest"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
             "goal": "Complete a Loddie Minigame",
             "range": [],
             "individual_limit": 1,
@@ -1027,19 +1013,6 @@
             "icons": []
         },
         {
-            "goal": "Fight Big Flea",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown"
-            ],
-            "line_categories": [
-                "fight"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
             "goal": "Underworks Ventrica",
             "range": [],
             "individual_limit": 1,
@@ -1136,20 +1109,6 @@
             "icons": []
         },
         {
-            "goal": "Pay for a Flea Spa",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump",
-                "flea"
-            ],
-            "line_categories": [
-                "npc"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
             "goal": "1 Extra Mask",
             "range": [],
             "individual_limit": 1,
@@ -1159,6 +1118,20 @@
             ],
             "line_categories": [
                 "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Pay for a Flea Spa",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [
+                "npc"
             ],
             "tooltip": "",
             "icons": []
@@ -1286,6 +1259,19 @@
             "icons": []
         },
         {
+            "goal": "Fight Big Flea",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Talk to Vog",
             "range": [],
             "individual_limit": 1,
@@ -1296,6 +1282,21 @@
             "line_categories": [
                 "npc",
                 "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Meet Caravan in Greymoor",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "tool",
+                "flea"
+            ],
+            "line_categories": [
+                "quest"
             ],
             "tooltip": "",
             "icons": []

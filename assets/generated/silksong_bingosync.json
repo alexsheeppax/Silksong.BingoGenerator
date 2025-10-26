@@ -15,7 +15,7 @@
         "name": "Complete 5 Quests"
     },
     {
-        "name": "Complete A Delivery"
+        "name": "Break a Courier Item"
     },
     {
         "name": "Crawbug Clearing"
@@ -105,6 +105,12 @@
         "name": "Bilewater Mask Shard"
     },
     {
+        "name": "Shellwood Mask Shard"
+    },
+    {
+        "name": "Blasted Steps Mask Shard"
+    },
+    {
         "name": "Memory Crystal"
     },
     {
@@ -121,12 +127,6 @@
     },
     {
         "name": "Repair Silkshot"
-    },
-    {
-        "name": "Shellwood Mask Shard"
-    },
-    {
-        "name": "Blasted Steps Mask Shard"
     },
     {
         "name": "Rosary Canon"
@@ -198,9 +198,6 @@
         "name": "Save Green Prince"
     },
     {
-        "name": "Meet Caravan in Greymoor"
-    },
-    {
         "name": "Complete a Loddie Minigame"
     },
     {
@@ -223,9 +220,6 @@
     },
     {
         "name": "Pay To Confess"
-    },
-    {
-        "name": "Fight Big Flea"
     },
     {
         "name": "Underworks Ventrica"
@@ -252,10 +246,10 @@
         "name": "Twisted Bud"
     },
     {
-        "name": "Pay for a Flea Spa"
+        "name": "1 Extra Mask"
     },
     {
-        "name": "1 Extra Mask"
+        "name": "Pay for a Flea Spa"
     },
     {
         "name": "Greymoor Fleas [2] + Kratt"
@@ -288,7 +282,13 @@
         "name": "Mt. Fay Flea [1]"
     },
     {
+        "name": "Fight Big Flea"
+    },
+    {
         "name": "Talk to Vog"
+    },
+    {
+        "name": "Meet Caravan in Greymoor"
     },
     {
         "name": "1 Spool Upgrades"
