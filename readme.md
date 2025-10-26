@@ -3,12 +3,18 @@ A discord bot and associated codebase used to support [bingosync](https://bingos
 
 The up-to-date lockout.live and bingosync files live in assets/generated/.
 
+An easy-to-read list of goals is [here!](https://github.com/Zhetadelta/Silksong.BingoGenerator/blob/main/assets/generated/silksong_readable.md)
+
 ## Commands
 Add the bot to your user account or server via [this link!](https://discord.com/oauth2/authorize?client_id=1429591758248874105)
 
 - newboard
 
-Very simple command that spits out a Bingosync-formatted list. Set the game to Custom (Advanced) and the variant to "Fixed Board" to use.
+Very simple command that spits out a Bingosync-formatted list. Set the game to Custom (Advanced) and the variant to "Fixed Board" to use. Supports lockout-exclusive goals as well as progression-limiting for shorter games.
+
+- newroom
+
+Bingyflea will generate a board AND handle the room creation for you. Has the same options as newboard!
 
 - advancedboard
 
@@ -30,7 +36,11 @@ If not given, a weight is assumed to be 1. A weight of 2 means a goal is twice a
 
 For ranges:
 "{{X}} Memory Lockets" with a "range" : [1,2,5] can be any of the following goals:
-1 Memory Lockets
-2 Memory Lockets
-5 Memory Lockets
+
+- 1 Memory Lockets
+- 2 Memory Lockets
+- 5 Memory Lockets
+
 These are automatically exclusive, and the group can be added to an exclusive pool using the string with {{X}} in it.
+
+For lockout goals, a seperate range can be defined for the lockout version of that goal. Use "lockout-range" **in addition to the normal range.**
