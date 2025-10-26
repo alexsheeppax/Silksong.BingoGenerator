@@ -78,6 +78,8 @@ async def newboard(interaction: discord.Interaction, progression: Optional[app_c
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 @client.tree.command()
+@app_commands.describe(progression="Limit the highest progression needed for any goal.")
+@app_commands.choices(progression=prog_options())
 async def newroom(interaction: discord.Interaction, lockout: bool = False, progression: Optional[app_commands.Choice[str]] = None):
     """Generates a new board and creates a bingosync room."""
     noTags = progStringToTags(progression)
