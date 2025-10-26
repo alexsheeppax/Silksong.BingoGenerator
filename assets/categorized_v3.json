@@ -632,17 +632,6 @@
       ]
     },
     {
-      "name": "Meet Caravan in Greymoor",
-      "types": [
-        "quest",
-        "tool",
-        "flea"
-      ],
-      "progression": [
-        "dash"
-      ]
-    },
-    {
       "name": "Complete a Loddie Minigame",
       "types": [
         "npc"
@@ -715,15 +704,6 @@
       ]
     },
     {
-      "name": "Fight Big Flea",
-      "types": [
-        "fight"
-      ],
-      "progression": [
-        "faydown"
-      ]
-    },
-    {
       "name": "Underworks Ventrica",
       "types": [
         "location"
@@ -793,6 +773,16 @@
       ]
     },
     {
+      "name": "1 Extra Mask",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "dash",
+        "cloak"
+      ]
+    },
+        {
       "name": "Pay for a Flea Spa",
       "types": [
         "npc",
@@ -802,16 +792,6 @@
         "walljump"
       ],
       "weight" : 2
-    },
-    {
-      "name": "1 Extra Mask",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "dash",
-        "cloak"
-      ]
     },
     {
       "name": "Greymoor Fleas [2] + Kratt",
@@ -905,6 +885,15 @@
       ]
     },
     {
+      "name": "Fight Big Flea",
+      "types": [
+        "fight"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
       "name": "Talk to Vog",
       "types": [
         "flea",
@@ -913,6 +902,17 @@
       ],
       "progression": [
         "faydown"
+      ]
+    },
+    {
+      "name": "Meet Caravan in Greymoor",
+      "types": [
+        "quest",
+        "tool",
+        "flea"
+      ],
+      "progression": [
+        "dash"
       ]
     },
     {
