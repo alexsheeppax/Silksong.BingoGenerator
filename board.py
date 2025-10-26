@@ -9,7 +9,7 @@ CAT_FILENAME = "categorized_v3.json"
 #Lockout.live formatting
 BOARD_TYPES = [
     'cloak', 'walljump', 'act2', 'dash', 'early', 'clawline', 
-    'feydown', 'craft', 'hardsave', 'melody', 'flea', "key", 'tool', ]
+    'faydown', 'craft', 'hardsave', 'melody', 'flea', "key", 'tool', ]
     
 LL_LIMITS = {
             "board" : {
@@ -19,7 +19,7 @@ LL_LIMITS = {
                 "walljump" : 25,
                 "act2" : 30,
                 "clawline" : 40,
-                "feydown" : 50,
+                "faydown" : 50,
                 "hardsave" : 20,
                 "craft" : 40,
                 "flea" : 15,
