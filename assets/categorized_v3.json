@@ -890,7 +890,8 @@
         "cloak"
       ],
       "range": [
-        8
+        8,
+        14
       ]
     },
     {
@@ -974,31 +975,32 @@
       ]
     },
     {
-      "name": "Have {{X}} Rosary Strings",
+      "name": "Pick up & have {{X}} Rosary Strings",
       "types": [
         "collection"
       ],
       "progression": [
-        "dash"
+        "dash",
+        "act2"
       ],
       "range": [
         4, 8
       ]
     },
     {
-      "name": "Have {{X}} Rosary Necklaces",
+      "name": "Pick up & have {{X}} Rosary Necklaces",
       "types": [
         "collection"
       ],
       "progression": [
-        "widow"
+        "act2"
       ],
       "range": [
         3
       ]
     },
     {
-      "name": "Break {{X}} Rosary Strings",
+      "name": "Pick up & break {{X}} Rosary Strings",
       "types": [
         "collection"
       ],
@@ -1053,11 +1055,11 @@
         "walljump"
       ],
       "range": [
-        1,
         5
       ],
       "lockout-range": [
-        1
+        1,
+        5
       ]
     },
     {
@@ -1094,11 +1096,11 @@
         "cloak"
       ],
       "range": [
-        5,
         8
       ],
       "lockout-range": [
-        5
+        5,
+        8
       ]
     },
     {
@@ -1271,8 +1273,8 @@
     },
     {
       "unique": [
-        "Have {{X}} Rosary Strings",
-        "Break {{X}} Rosary Strings"
+        "Pick up & have {{X}} Rosary Strings",
+        "Pick up & break {{X}} Rosary Strings"
       ]
     },
     {
