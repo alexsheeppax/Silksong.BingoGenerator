@@ -107,7 +107,7 @@ def bingosyncBoard(noTags=[]):
     """
     Generates a board and returns a bingosync formatted list.
     """
-    boardList = board(*getAllGoals(noTags=noTags), lockout=!("lockout" in noTags))
+    boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags))
     out = []
     for name in boardList:
         out.append({"name": name})
