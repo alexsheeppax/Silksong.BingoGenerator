@@ -1140,6 +1140,19 @@
             "icons": []
         },
         {
+            "goal": "Both Free Simple Keys",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "{{X}} Extra Mask",
             "range": [
                 1
@@ -1232,9 +1245,34 @@
             "icons": []
         },
         {
+            "goal": "Underworks Fleas [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Lower Bilewater & Hunter's March Fleas [2]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Free {{X}} fleas",
             "range": [
-                8
+                8,
+                14
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -1353,14 +1391,15 @@
             "icons": []
         },
         {
-            "goal": "Have {{X}} Rosary Strings",
+            "goal": "Have {{X}} Rosary Strings (no purchasing)",
             "range": [
                 4,
                 8
             ],
             "individual_limit": 1,
             "board_categories": [
-                "dash"
+                "dash",
+                "act2"
             ],
             "line_categories": [
                 "collection"
@@ -1369,13 +1408,13 @@
             "icons": []
         },
         {
-            "goal": "Have {{X}} Rosary Necklaces",
+            "goal": "Have {{X}} Rosary Necklaces (no purchasing)",
             "range": [
                 3
             ],
             "individual_limit": 1,
             "board_categories": [
-                "walljump"
+                "act2"
             ],
             "line_categories": [
                 "collection"
@@ -1384,7 +1423,7 @@
             "icons": []
         },
         {
-            "goal": "Break {{X}} Rosary Strings",
+            "goal": "Break {{X}} Rosary Strings (no purchasing)",
             "range": [
                 6
             ],
@@ -1444,7 +1483,6 @@
         {
             "goal": "{{X}} Memory Lockets",
             "range": [
-                1,
                 5
             ],
             "individual_limit": 1,
@@ -1494,7 +1532,6 @@
         {
             "goal": "{{X}} Shakra Locations (including hubs)",
             "range": [
-                5,
                 8
             ],
             "individual_limit": 1,

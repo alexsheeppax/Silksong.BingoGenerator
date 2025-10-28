@@ -249,6 +249,9 @@
         "name": "Twisted Bud"
     },
     {
+        "name": "Both Free Simple Keys"
+    },
+    {
         "name": "1 Extra Mask"
     },
     {
@@ -270,7 +273,16 @@
         "name": "Wormways & Blasted Steps Flea [2]"
     },
     {
+        "name": "Underworks Fleas [2]"
+    },
+    {
+        "name": "Lower Bilewater & Hunter's March Fleas [2]"
+    },
+    {
         "name": "Free 8 fleas"
+    },
+    {
+        "name": "Free 14 fleas"
     },
     {
         "name": "Meet Caravan at the Grand Gate"
@@ -300,16 +312,16 @@
         "name": "2 Spool Upgrades"
     },
     {
-        "name": "Have 4 Rosary Strings"
+        "name": "Have 4 Rosary Strings (no purchasing)"
     },
     {
-        "name": "Have 8 Rosary Strings"
+        "name": "Have 8 Rosary Strings (no purchasing)"
     },
     {
-        "name": "Have 3 Rosary Necklaces"
+        "name": "Have 3 Rosary Necklaces (no purchasing)"
     },
     {
-        "name": "Break 6 Rosary Strings"
+        "name": "Break 6 Rosary Strings (no purchasing)"
     },
     {
         "name": "Obtain 1 Tool Pouch Upgrade"
@@ -319,9 +331,6 @@
     },
     {
         "name": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits"
-    },
-    {
-        "name": "1 Memory Lockets"
     },
     {
         "name": "5 Memory Lockets"
@@ -334,9 +343,6 @@
     },
     {
         "name": "Obtain 4 Different Types of Relic"
-    },
-    {
-        "name": "5 Shakra Locations (including hubs)"
     },
     {
         "name": "8 Shakra Locations (including hubs)"

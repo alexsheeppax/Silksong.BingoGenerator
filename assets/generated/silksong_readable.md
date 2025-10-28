@@ -164,6 +164,8 @@
 
 **Twisted Bud** | Progression level(s): ['act2'] | Other tags: ['collection']
 
+**Both Free Simple Keys** | Progression level(s): ['clawline'] | Other tags: ['collection']
+
 **1 Extra Mask** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
 
 **Pay for a Flea Spa** | Progression level(s): ['walljump'] | Other tags: ['npc', 'flea']
@@ -178,7 +180,13 @@
 
 **Wormways & Blasted Steps Flea [2]** | Progression level(s): ['walljump'] | Other tags: ['flea']
 
+**Underworks Fleas [2]** | Progression level(s): ['faydown'] | Other tags: ['flea']
+
+**Lower Bilewater & Hunter's March Fleas [2]** | Progression level(s): ['walljump'] | Other tags: ['flea']
+
 **Free 8 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
+
+**Free 14 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
 
 **Meet Caravan at the Grand Gate** | Progression level(s): ['act2'] | Other tags: ['flea']
 
@@ -198,21 +206,19 @@
 
 **2 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
 
-**Have 4 Rosary Strings** | Progression level(s): ['dash'] | Other tags: ['collection']
+**Have 4 Rosary Strings (no purchasing)** | Progression level(s): ['dash', 'act2'] | Other tags: ['collection']
 
-**Have 8 Rosary Strings** | Progression level(s): ['dash'] | Other tags: ['collection']
+**Have 8 Rosary Strings (no purchasing)** | Progression level(s): ['dash', 'act2'] | Other tags: ['collection']
 
-**Have 3 Rosary Necklaces** | Progression level(s): ['widow'] | Other tags: ['collection']
+**Have 3 Rosary Necklaces (no purchasing)** | Progression level(s): ['act2'] | Other tags: ['collection']
 
-**Break 6 Rosary Strings** | Progression level(s): ['widow'] | Other tags: ['collection']
+**Break 6 Rosary Strings (no purchasing)** | Progression level(s): ['widow'] | Other tags: ['collection']
 
 **Obtain 1 Tool Pouch Upgrade** | Progression level(s): ['cloak'] | Other tags: ['collection']
 
 **Obtain 1 Crafting Kit** | Progression level(s): ['dash'] | Other tags: ['collection']
 
 **Obtain {{X}} Tool Pouch Upgrade/Crafting Kits** | Progression level(s): ['widow'] | Other tags: ['collection']
-
-**1 Memory Lockets** | Progression level(s): ['cloak', 'walljump'] | Other tags: ['collection', 'locket']
 
 **5 Memory Lockets** | Progression level(s): ['cloak', 'walljump'] | Other tags: ['collection', 'locket']
 
@@ -221,8 +227,6 @@
 **Obtain 3 Different Types of Relic** | Progression level(s): ['walljump'] | Other tags: ['collection', 'relic']
 
 **Obtain 4 Different Types of Relic** | Progression level(s): ['walljump'] | Other tags: ['collection', 'relic']
-
-**5 Shakra Locations (including hubs)** | Progression level(s): ['cloak'] | Other tags: ['npc']
 
 **8 Shakra Locations (including hubs)** | Progression level(s): ['cloak'] | Other tags: ['npc']
 
