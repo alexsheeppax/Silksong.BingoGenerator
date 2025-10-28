@@ -812,6 +812,15 @@
       ]
     },
     {
+      "name": "Both Free Simple Keys",
+      "types": [
+        "collection"
+      ],
+      "progression": [
+        "clawline"
+      ]
+    },
+    {
       "name": "{{X}} Extra Mask",
       "types": [
         "upgrade"
@@ -874,6 +883,24 @@
     },
     {
       "name": "Wormways & Blasted Steps Flea [2]",
+      "types": [
+        "flea"
+      ],
+      "progression": [
+        "walljump"
+      ]
+    },
+    {
+      "name": "Underworks Fleas [2]",
+      "types": [
+        "flea"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Lower Bilewater & Hunter's March Fleas [2]",
       "types": [
         "flea"
       ],
@@ -1348,6 +1375,18 @@
       "unique": [
         "Cogwork Core Mask Shard",
         "Defeat a Cogwork Clapper"
+      ]
+    },
+    {
+      "unique": [
+        "Father Of The Flame",
+        "Underworks Fleas [2]"
+      ]
+    },
+    {
+      "unique": [
+        "Both Free Simple Keys",
+        "Sands of Karak Flea [1]"
       ]
     }
   ]
