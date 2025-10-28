@@ -975,7 +975,7 @@
       ]
     },
     {
-      "name": "Pick up & have {{X}} Rosary Strings",
+      "name": "Have {{X}} Rosary Strings (no purchasing)",
       "types": [
         "collection"
       ],
@@ -988,7 +988,7 @@
       ]
     },
     {
-      "name": "Pick up & have {{X}} Rosary Necklaces",
+      "name": "Have {{X}} Rosary Necklaces (no purchasing)",
       "types": [
         "collection"
       ],
@@ -1000,7 +1000,7 @@
       ]
     },
     {
-      "name": "Pick up & break {{X}} Rosary Strings",
+      "name": "Break {{X}} Rosary Strings (no purchasing)",
       "types": [
         "collection"
       ],
@@ -1273,8 +1273,8 @@
     },
     {
       "unique": [
-        "Pick up & have {{X}} Rosary Strings",
-        "Pick up & break {{X}} Rosary Strings"
+        "Have {{X}} Rosary Strings (no purchasing)",
+        "Break {{X}} Rosary Strings (no purchasing)"
       ]
     },
     {
