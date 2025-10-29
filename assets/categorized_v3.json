@@ -96,10 +96,12 @@
         "craft"
       ],
       "progression": [
-        "dash"
+        "dash",
+        "cloak"
       ],
       "range": [
-        3
+        3,
+        5
       ]
     },
     {
@@ -121,10 +123,12 @@
       ],
       "progression": [
         "early",
-        "dash"
+        "dash",
+        "cloak"
       ],
       "range": [
-        3
+        3,
+        5
       ]
     },
     {
@@ -174,6 +178,42 @@
       ],
       "progression": [
         "walljump"
+      ]
+    },
+    {
+      "name": "Injector Band & Claw Mirror",
+      "types": [
+        "tool"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
+      "name": "Curveclaw & Sawtooth Circlet",
+      "types": [
+        "tool"
+      ],
+      "progression": [
+        "clawline"
+      ]
+    },
+    {
+      "name": "Curveclaw & Magma Bell",
+      "types": [
+        "tool"
+      ],
+      "progression": [
+        "early"
+      ]
+    },
+    {
+      "name": "Sting Shard & Asendant's Grip",
+      "types": [
+        "tool"
+      ],
+      "progression": [
+        "act2"
       ]
     },
     {
@@ -1039,6 +1079,23 @@
       ]
     },
     {
+      "name": "Have {{X}} Shard Bundles (no purchasing)",
+      "types": [
+        "collection"
+      ],
+      "progression": [
+        "walljump",
+        "act2"
+      ],
+      "range": [
+        6
+      ],
+      "lockout-range": [
+        4,
+        6
+      ]
+    },
+    {
       "name": "Obtain {{X}} Tool Pouch Upgrade",
       "types": [
         "collection"
@@ -1341,7 +1398,8 @@
     {
       "unique":[
         "Open White Ward",
-        "Injector Band"
+        "Injector Band",
+        "Injector Band & Claw Mirror"
       ]
     },
     {
@@ -1403,6 +1461,30 @@
       "unique": [
         "Both Free Simple Keys",
         "Sands of Karak Flea [1]"
+      ]
+    },
+    {
+      "unique": [
+        "{{X}} Red Tools",
+        "Straight, Threefold, and Long Pin"
+      ]
+    },
+    {
+      "unique": [
+        "Trobbio",
+        "Injector Band & Claw Mirror"
+      ]
+    },
+    {
+      "unique": [
+        "Curveclaw & Sawtooth Circlet",
+        "Curveclaw & Magma Bell"
+      ]
+    },
+    {
+      "unique": [
+        "Save Jubliana",
+        "Sting Shard & Asendant's Grip"
       ]
     }
   ]
