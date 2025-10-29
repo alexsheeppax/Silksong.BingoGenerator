@@ -1069,6 +1069,9 @@
       ],
       "progression": [
         "widow"
+      ],
+      "range": [
+        3
       ]
     },
     {
@@ -1086,6 +1089,7 @@
       ],
       "lockout-range": [
         1,
+        2,
         5
       ]
     },
@@ -1115,7 +1119,7 @@
       ]
     },
     {
-      "name": "{{X}} Shakra Locations (including hubs)",
+      "name": "Talk to Shakra in {{X}} different areas",
       "types": [
         "npc"
       ],
@@ -1129,6 +1133,18 @@
         5,
         8
       ]
+    },
+    {
+      "name": "Buy {{X}} maps",
+      "types": [
+        "npc"
+      ],
+      "progression": [
+        "dash"
+      ],
+      "range": [
+        5
+      ],
     },
     {
       "name": "Talk to Shakra in Bilewater",
