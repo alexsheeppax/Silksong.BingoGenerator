@@ -4,6 +4,13 @@ from typing import Optional
 
 CONFIG_PATH = os.path.join("config","settings.dat")
 
+BOARD_KWARGS = { #sensible defaults for new boards
+    "tagLimits" : {
+        "craftmetal" : 3,
+        "flea" : 4
+    }
+}
+
 def config():
     if not os.path.exists(os.path.dirname(CONFIG_PATH)):
         os.makedirs(os.path.dirname(CONFIG_PATH))
@@ -76,7 +83,7 @@ async def newboard(interaction: discord.Interaction, lockout: bool = False, pres
     noTags = progStringToTags(progression)
     if not lockout:
         noTags.append("lockout")
-    thisBoard = board.bingosyncBoard(noTags=noTags)
+    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 @client.tree.command()
@@ -87,7 +94,7 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
     noTags = progStringToTags(progression)
     if not lockout:
         noTags.append("lockout") #exclude lockout-only goals
-    thisBoard = board.bingosyncBoard(noTags=noTags)
+    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS)
     bsSession = network.bingosyncClient()
     n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
     bsSession.close()
