@@ -263,5 +263,5 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1})
+    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1, "flea" : 3})
     print(json.dumps(thisBoard))
