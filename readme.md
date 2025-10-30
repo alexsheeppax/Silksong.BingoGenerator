@@ -31,13 +31,13 @@ A goal must be a dictionary as follows:
 
 - `"types" : [string]` Applicable tags for the goal. Not enforced via code but goals should probably have at least one type.
 
-Possible types:
+#### Possible types:
 
 "craft", "flea", "key", "tool", "melody", "quest", "locket", "upgrade", "fight", "npc", "location", "collection", "relic", "hardsave"
 
 - `"progression" : [string]` Progression stage when the goal is expected to be achievable. Goals must have at least one, but some (such as ranges) can have multiple.
 
-Progression strings:
+#### Progression strings:
 
 "early", "dash", "cloak", "walljump", "act2", "clawline", "faydown"
 
