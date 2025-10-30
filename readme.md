@@ -45,7 +45,7 @@ Progression strings:
 
 - `"range" : [int]` **(Optional)** A goal with `"{{X}}"` in the name will have that string replaced with a number in the given range.
 
--`"lockout-range" : [int]` **(Optional)** For lockout goals, a seperate range can be defined for the lockout version of that goal. Use "lockout-range" **in addition to the normal range.**
+- `"lockout-range" : [int]` **(Optional)** For lockout goals, a seperate range can be defined for the lockout version of that goal. Use "lockout-range" **in addition to the normal range.**
 
 Example:
 
