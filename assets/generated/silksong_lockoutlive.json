@@ -147,11 +147,13 @@
         {
             "goal": "{{X}} Red Tools",
             "range": [
-                3
+                3,
+                5
             ],
             "individual_limit": 1,
             "board_categories": [
                 "dash",
+                "cloak",
                 "tool",
                 "craft"
             ],
@@ -176,12 +178,14 @@
         {
             "goal": "{{X}} Yellow Tools",
             "range": [
-                3
+                3,
+                5
             ],
             "individual_limit": 1,
             "board_categories": [
                 "early",
                 "dash",
+                "cloak",
                 "tool"
             ],
             "line_categories": [],
@@ -245,6 +249,54 @@
             "individual_limit": 1,
             "board_categories": [
                 "walljump",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Injector Band & Claw Mirror",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Curveclaw & Sawtooth Circlet",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Curveclaw & Magma Bell",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Sting Shard & Asendant's Grip",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
                 "tool"
             ],
             "line_categories": [],
@@ -1438,6 +1490,22 @@
             "icons": []
         },
         {
+            "goal": "Have {{X}} Shard Bundles (no purchasing)",
+            "range": [
+                6
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "act2"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Obtain {{X}} Tool Pouch Upgrade",
             "range": [
                 1
@@ -1469,7 +1537,9 @@
         },
         {
             "goal": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits",
-            "range": [],
+            "range": [
+                3
+            ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump"
@@ -1530,13 +1600,28 @@
             "icons": []
         },
         {
-            "goal": "{{X}} Shakra Locations (including hubs)",
+            "goal": "Talk to Shakra in {{X}} different areas",
             "range": [
                 8
             ],
             "individual_limit": 1,
             "board_categories": [
                 "cloak"
+            ],
+            "line_categories": [
+                "npc"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Buy {{X}} maps",
+            "range": [
+                5
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash"
             ],
             "line_categories": [
                 "npc"

@@ -14,11 +14,15 @@
 
 **Volatile Flintbeetles** | Progression level(s): ['cloak'] | Other tags: ['quest', 'locket']
 
-**3 Red Tools** | Progression level(s): ['dash'] | Other tags: ['tool', 'craft']
+**3 Red Tools** | Progression level(s): ['dash', 'cloak'] | Other tags: ['tool', 'craft']
+
+**5 Red Tools** | Progression level(s): ['dash', 'cloak'] | Other tags: ['tool', 'craft']
 
 **3 Blue Tools** | Progression level(s): ['dash'] | Other tags: ['tool']
 
-**3 Yellow Tools** | Progression level(s): ['early', 'dash'] | Other tags: ['tool']
+**3 Yellow Tools** | Progression level(s): ['early', 'dash', 'cloak'] | Other tags: ['tool']
+
+**5 Yellow Tools** | Progression level(s): ['early', 'dash', 'cloak'] | Other tags: ['tool']
 
 **2 of each tool type** | Progression level(s): ['early', 'dash'] | Other tags: ['tool']
 
@@ -29,6 +33,14 @@
 **Barbed Bracelet + Fractured Mask** | Progression level(s): ['walljump'] | Other tags: ['tool']
 
 **Magnetite Dice & Magnetite Brooch** | Progression level(s): ['walljump'] | Other tags: ['tool']
+
+**Injector Band & Claw Mirror** | Progression level(s): ['act2'] | Other tags: ['tool']
+
+**Curveclaw & Sawtooth Circlet** | Progression level(s): ['clawline'] | Other tags: ['tool']
+
+**Curveclaw & Magma Bell** | Progression level(s): ['early'] | Other tags: ['tool']
+
+**Sting Shard & Asendant's Grip** | Progression level(s): ['act2'] | Other tags: ['tool']
 
 **Delver's Drill** | Progression level(s): ['act2'] | Other tags: ['tool']
 
@@ -214,11 +226,13 @@
 
 **Break 6 Rosary Strings (no purchasing)** | Progression level(s): ['widow'] | Other tags: ['collection']
 
+**Have 6 Shard Bundles (no purchasing)** | Progression level(s): ['walljump', 'act2'] | Other tags: ['collection']
+
 **Obtain 1 Tool Pouch Upgrade** | Progression level(s): ['cloak'] | Other tags: ['collection']
 
 **Obtain 1 Crafting Kit** | Progression level(s): ['dash'] | Other tags: ['collection']
 
-**Obtain {{X}} Tool Pouch Upgrade/Crafting Kits** | Progression level(s): ['widow'] | Other tags: ['collection']
+**Obtain 3 Tool Pouch Upgrade/Crafting Kits** | Progression level(s): ['widow'] | Other tags: ['collection']
 
 **5 Memory Lockets** | Progression level(s): ['cloak', 'walljump'] | Other tags: ['collection', 'locket']
 
@@ -228,7 +242,9 @@
 
 **Obtain 4 Different Types of Relic** | Progression level(s): ['walljump'] | Other tags: ['collection', 'relic']
 
-**8 Shakra Locations (including hubs)** | Progression level(s): ['cloak'] | Other tags: ['npc']
+**Talk to Shakra in 8 different areas** | Progression level(s): ['cloak'] | Other tags: ['npc']
+
+**Buy 5 maps** | Progression level(s): ['dash'] | Other tags: ['npc']
 
 **Talk to Shakra in Bilewater** | Progression level(s): ['faydown'] | Other tags: ['npc', 'location']
 

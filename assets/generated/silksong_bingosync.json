@@ -27,10 +27,16 @@
         "name": "3 Red Tools"
     },
     {
+        "name": "5 Red Tools"
+    },
+    {
         "name": "3 Blue Tools"
     },
     {
         "name": "3 Yellow Tools"
+    },
+    {
+        "name": "5 Yellow Tools"
     },
     {
         "name": "2 of each tool type"
@@ -46,6 +52,18 @@
     },
     {
         "name": "Magnetite Dice & Magnetite Brooch"
+    },
+    {
+        "name": "Injector Band & Claw Mirror"
+    },
+    {
+        "name": "Curveclaw & Sawtooth Circlet"
+    },
+    {
+        "name": "Curveclaw & Magma Bell"
+    },
+    {
+        "name": "Sting Shard & Asendant's Grip"
     },
     {
         "name": "Delver's Drill"
@@ -324,13 +342,16 @@
         "name": "Break 6 Rosary Strings (no purchasing)"
     },
     {
+        "name": "Have 6 Shard Bundles (no purchasing)"
+    },
+    {
         "name": "Obtain 1 Tool Pouch Upgrade"
     },
     {
         "name": "Obtain 1 Crafting Kit"
     },
     {
-        "name": "Obtain {{X}} Tool Pouch Upgrade/Crafting Kits"
+        "name": "Obtain 3 Tool Pouch Upgrade/Crafting Kits"
     },
     {
         "name": "5 Memory Lockets"
@@ -345,7 +366,10 @@
         "name": "Obtain 4 Different Types of Relic"
     },
     {
-        "name": "8 Shakra Locations (including hubs)"
+        "name": "Talk to Shakra in 8 different areas"
+    },
+    {
+        "name": "Buy 5 maps"
     },
     {
         "name": "Talk to Shakra in Bilewater"
