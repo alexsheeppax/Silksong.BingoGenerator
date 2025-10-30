@@ -80,7 +80,7 @@ def progStringToTags(progression):
 @app_commands.choices(preset=prog_options())
 async def newboard(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
     """Generates a new board for bingosync."""
-    noTags = progStringToTags(progression)
+    noTags = progStringToTags(preset)
     if not lockout:
         noTags.append("lockout")
     thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS)
@@ -91,7 +91,7 @@ async def newboard(interaction: discord.Interaction, lockout: bool = False, pres
 @app_commands.choices(preset=prog_options())
 async def newroom(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
     """Generates a new board and creates a bingosync room."""
-    noTags = progStringToTags(progression)
+    noTags = progStringToTags(preset)
     if not lockout:
         noTags.append("lockout") #exclude lockout-only goals
     thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS)
