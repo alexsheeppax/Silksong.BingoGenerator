@@ -60,17 +60,23 @@ def getAllGoals(noTags=[]):
     for g in remGoals:
         if g in catList["goals"]: #in case goal got added to remList twice; don't want to error out due to typo or w/e
             catList["goals"].remove(g)
-    return catList["goals"], [u["unique"] for u in catList["exclusions"]]
+    return catList["goals"], [u for u in catList["exclusions"]]
 
-def findExclusions(goalName, exclusionList):
+def findExclusions(goalName, exclusionDic):
     """
     Given a goal name and the main exclusion list, returns the exclusions relevant to this goal or an empty list if none.
+
     """
     exclus = []
-    for exclusionSet in exclusionList:
-        if goalName in exclusionSet:
-            exclus = exclus + exclusionSet
-    return exclus
+    for exclusionSet in exclusionDic:
+        if goalName in exclusionSet["unique"]:
+            if "limit" not in exclusionSet.keys() or exclusionSet["limit"] == 1: #no limit or limit reached
+                exclus = exclus + exclusionSet["unique"]
+            else:
+                exclusionSet["limit"] = exclusionSet["limit"] - 1
+                return False
+    return exclus if exclus != [] else False
+    
 
 def removeGoalByName(goalList:list, toRemove):
     listCopy = goalList.copy()
@@ -79,16 +85,40 @@ def removeGoalByName(goalList:list, toRemove):
             listCopy.remove(goal) #can't change mutable types during iteration
     return listCopy
 
-def board(allGoals:dict, exclusionList, lockout = False):
+def board(allGoals:dict, exclusionDic, **kwargs):
     """
     Generates a list of 25 goals from the dict of goals pass as a dictionary. Goals will have a name and optionally exclusions.
     Returns a list of goal names.
     """
     goals = []
+    lockout = kwargs["lockout"] if "lockout" in kwargs.keys() else False
+    tagLimits = kwargs["tagLimits"] if "tagLimits" in kwargs.keys() else None
     while len(goals) < 25:
         newGoal = random.choices(allGoals, weights=[g["weight"] for g in allGoals])[0] #list comprehension to extract weights
-        for excludedGoal in findExclusions(newGoal["name"], exclusionList):
-            allGoals = removeGoalByName(allGoals, excludedGoal)
+
+        #process board limits
+        skip = False
+        if tagLimits is not None:
+            goalTags = newGoal["types"] + newGoal["progression"]
+            for tag in goalTags:
+                if tag in tagLimits.keys(): #tag has a limit
+                    if tagLimits[tag] == 0: #limit has been reached
+                        allGoals.remove(newGoal)
+                        skip = True #remove goal from list and redraw
+                    else:
+                        tagLimits[tag] = tagLimits[tag] - 1 #decrement tag limit
+        if skip:
+            continue
+
+        ### GOAL IS LOCKED IN AT THIS POINT. DO NOT REDRAW
+
+        #process set exclusions
+        exclusions = findExclusions(newGoal["name"], exclusionDic)
+        if exclusions: #exclusions is false if limit > 1 or no exclusions found
+            for excludedGoal in exclusions:
+                allGoals = removeGoalByName(allGoals, excludedGoal)
+
+        #format ranges and append to list
         if "range" in newGoal.keys(): #goal has a range
             if not lockout or "lockout-range" not in newGoal.keys(): #use base range
                 goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["range"]))))
@@ -96,18 +126,26 @@ def board(allGoals:dict, exclusionList, lockout = False):
                 goals.append(newGoal["name"].replace("{{X}}", str(random.choice(newGoal["lockout-range"]))))
         else: #no range, ez
             goals.append(newGoal["name"])
+
+        #remove goal from list to not get chosen twice
         try:
             allGoals.remove(newGoal)
         except ValueError: #what
             pass
-    random.shuffle(goals) #mix em all up
+
+    random.shuffle(goals) #mix em all up when we're done
     return goals
 
-def bingosyncBoard(noTags=[]):
+def bingosyncBoard(noTags=[], **kwargs):
     """
     Generates a board and returns a bingosync formatted list.
     """
-    boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags))
+    if "tagLimits" in kwargs.keys():
+        limits = kwargs["tagLimits"]
+    else:
+        limits = None
+
+    boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags), tagLimits=limits)
     out = []
     for name in boardList:
         out.append({"name": name})
@@ -225,4 +263,5 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    print(json.dumps(bingosyncBoard(noTags=["lockout"])))
+    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1})
+    print(json.dumps(thisBoard))
