@@ -69,9 +69,9 @@ def progStringToTags(progression):
     return noTags
 
 @client.tree.command()
-@app_commands.describe(progression="Limit the highest progression needed for any goal.")
-@app_commands.choices(progression=prog_options())
-async def newboard(interaction: discord.Interaction, lockout: bool = False, progression: Optional[app_commands.Choice[str]] = None):
+@app_commands.describe(preset="Tags to exclude based on preset categories.")
+@app_commands.choices(preset=prog_options())
+async def newboard(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
     """Generates a new board for bingosync."""
     noTags = progStringToTags(progression)
     if not lockout:
@@ -80,9 +80,9 @@ async def newboard(interaction: discord.Interaction, lockout: bool = False, prog
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 @client.tree.command()
-@app_commands.describe(progression="Limit the highest progression needed for any goal.")
-@app_commands.choices(progression=prog_options())
-async def newroom(interaction: discord.Interaction, lockout: bool = False, progression: Optional[app_commands.Choice[str]] = None):
+@app_commands.describe(preset="Tags to exclude based on preset categories.")
+@app_commands.choices(preset=prog_options())
+async def newroom(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
     """Generates a new board and creates a bingosync room."""
     noTags = progStringToTags(progression)
     if not lockout:
