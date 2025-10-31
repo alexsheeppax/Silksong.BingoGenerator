@@ -226,134 +226,6 @@
       ]
     },
     {
-      "name": "Wanderer's Crest",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "walljump"
-      ]
-    },
-    {
-      "name": "Reaper's Crest",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Beast's Crest",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Clawline",
-      "types": [
-        "upgrade",
-        "hardsave",
-        "lockout"
-      ],
-      "progression": [
-        "act2",
-        "clawline"
-      ]
-    },
-    {
-      "name": "Needle Art",
-      "types": [
-        "upgrade",
-        "fight"
-      ],
-      "progression": [
-        "walljump"
-      ]
-    },
-    {
-      "name": "Plasmium Phial",
-      "types": [
-        "tool",
-        "quest",
-        "key"
-      ],
-      "progression": [
-        "walljump"
-      ]
-    },
-    {
-      "name": "Needle 2",
-      "types": [
-        "upgrade",
-        "quest"
-      ],
-      "progression": [
-        "act2"
-      ]
-    },
-    {
-      "name": "Thread Storm",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Sharpdart",
-      "types": [
-        "upgrade",
-        "key",
-        "hardsave"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Evolved Hunter's Crest",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "widow"
-      ]
-    },
-    {
-      "name": "Faydown Cloak",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "clawline",
-        "faydown"
-      ]
-    },
-    {
-      "name": "{{X}} Silk Skills",
-      "types": [
-        "upgrade",
-        "hardsave"
-      ],
-      "progression": [
-        "walljump"
-      ],
-      "range": [
-        3
-      ]
-    },
-    {
       "name": "Pollip Pouch",
       "types": [
         "tool",
@@ -384,57 +256,14 @@
       ]
     },
     {
-      "name": "Farfields Escape Mask Shard",
+      "name": "Plasmium Phial",
       "types": [
-        "upgrade"
+        "tool",
+        "quest",
+        "key"
       ],
       "progression": [
-        "clawline"
-      ]
-    },
-    {
-      "name": "Slab Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "faydown"
-      ]
-    },
-    {
-      "name": "Bilewater Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "faydown"
-      ]
-    },
-    {
-      "name": "Shellwood Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "cloak"
-      ]
-    },
-    {
-      "name": "Blasted Steps Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "faydown"
-      ]
-    },
-    {
-      "name": "Cogwork Core Mask Shard",
-      "types": [
-        "upgrade"
-      ],
-      "progression": [
-        "act2"
+        "walljump"
       ]
     },
     {
@@ -513,6 +342,187 @@
       ],
       "progression": [
         "clawline"
+      ]
+    },
+    {
+      "name": "Upgrade Druid's Eye",
+      "types": [
+        "collection",
+        "tool"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Wanderer's Crest",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "walljump"
+      ]
+    },
+    {
+      "name": "Reaper's Crest",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Beast's Crest",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Clawline",
+      "types": [
+        "upgrade",
+        "hardsave",
+        "lockout"
+      ],
+      "progression": [
+        "act2",
+        "clawline"
+      ]
+    },
+    {
+      "name": "Needle Art",
+      "types": [
+        "upgrade",
+        "fight"
+      ],
+      "progression": [
+        "walljump"
+      ]
+    },
+    {
+      "name": "Needle 2",
+      "types": [
+        "upgrade",
+        "quest"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
+      "name": "Thread Storm",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Sharpdart",
+      "types": [
+        "upgrade",
+        "key",
+        "hardsave"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Evolved Hunter's Crest",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "widow"
+      ]
+    },
+    {
+      "name": "Faydown Cloak",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "clawline",
+        "faydown"
+      ]
+    },
+    {
+      "name": "{{X}} Silk Skills",
+      "types": [
+        "upgrade",
+        "hardsave"
+      ],
+      "progression": [
+        "walljump"
+      ],
+      "range": [
+        3
+      ]
+    },
+    {
+      "name": "Farfields Escape Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "clawline"
+      ]
+    },
+    {
+      "name": "Slab Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Bilewater Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Shellwood Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "cloak"
+      ]
+    },
+    {
+      "name": "Blasted Steps Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Cogwork Core Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "act2"
       ]
     },
     {
@@ -830,16 +840,6 @@
       ],
       "progression": [
         "act2"
-      ]
-    },
-    {
-      "name": "Upgrade Druid's Eye",
-      "types": [
-        "collection",
-        "tool"
-      ],
-      "progression": [
-        "faydown"
       ]
     },
     {
