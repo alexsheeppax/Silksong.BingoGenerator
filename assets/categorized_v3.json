@@ -199,7 +199,7 @@
       ]
     },
     {
-      "name": "Curveclaw & Magma Bell",
+      "name": "Magma Bell & Curveclaw",
       "types": [
         "tool"
       ],
@@ -861,7 +861,7 @@
       ]
     },
     {
-      "name": "{{X}} Extra Mask",
+      "name": "{{X}} Extra Masks",
       "types": [
         "upgrade"
       ],
@@ -870,7 +870,8 @@
         "cloak"
       ],
       "range": [
-        1
+        1,
+        2
       ]
     },
         {
@@ -1038,7 +1039,8 @@
       ],
       "range": [
         1,
-        2
+        2,
+        3
       ]
     },
     {
@@ -1478,13 +1480,25 @@
     {
       "unique": [
         "Curveclaw & Sawtooth Circlet",
-        "Curveclaw & Magma Bell"
+        "Magma Bell & Curveclaw"
       ]
     },
     {
       "unique": [
         "Save Jubliana",
         "Sting Shard & Asendant's Grip"
+      ]
+    },
+    {
+      "limit": 4,
+      "unique": [
+        "{{X}} Extra Masks",
+        "Farfields Escape Mask Shard",
+        "Slab Mask Shard",
+        "Bilewater Mask Shard",
+        "Shellwood Mask Shard",
+        "Blasted Steps Mask Shard",
+        "Cogwork Core Mask Shard"
       ]
     }
   ]
