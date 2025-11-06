@@ -3,16 +3,31 @@
         "name": "2 Donations Quests"
     },
     {
+        "name": "3 Donations Quests"
+    },
+    {
         "name": "2 Hunt Quests"
+    },
+    {
+        "name": "4 Hunt Quests"
     },
     {
         "name": "2 Wayfarer Quests"
     },
     {
+        "name": "4 Wayfarer Quests"
+    },
+    {
         "name": "2 Gather Quests"
     },
     {
+        "name": "3 Gather Quests"
+    },
+    {
         "name": "Complete 5 Quests"
+    },
+    {
+        "name": "Complete 7 Quests"
     },
     {
         "name": "Break a Courier Item"
@@ -60,49 +75,13 @@
         "name": "Curveclaw & Sawtooth Circlet"
     },
     {
-        "name": "Curveclaw & Magma Bell"
+        "name": "Magma Bell & Curveclaw"
     },
     {
         "name": "Sting Shard & Asendant's Grip"
     },
     {
         "name": "Delver's Drill"
-    },
-    {
-        "name": "Wanderer's Crest"
-    },
-    {
-        "name": "Reaper's Crest"
-    },
-    {
-        "name": "Beast's Crest"
-    },
-    {
-        "name": "Clawline"
-    },
-    {
-        "name": "Needle Art"
-    },
-    {
-        "name": "Plasmium Phial"
-    },
-    {
-        "name": "Needle 2"
-    },
-    {
-        "name": "Thread Storm"
-    },
-    {
-        "name": "Sharpdart"
-    },
-    {
-        "name": "Evolved Hunter's Crest"
-    },
-    {
-        "name": "Faydown Cloak"
-    },
-    {
-        "name": "3 Silk Skills"
     },
     {
         "name": "Pollip Pouch"
@@ -114,22 +93,7 @@
         "name": "Weavelight"
     },
     {
-        "name": "Farfields Escape Mask Shard"
-    },
-    {
-        "name": "Slab Mask Shard"
-    },
-    {
-        "name": "Bilewater Mask Shard"
-    },
-    {
-        "name": "Shellwood Mask Shard"
-    },
-    {
-        "name": "Blasted Steps Mask Shard"
-    },
-    {
-        "name": "Cogwork Core Mask Shard"
+        "name": "Plasmium Phial"
     },
     {
         "name": "Memory Crystal"
@@ -154,6 +118,60 @@
     },
     {
         "name": "Cogfly"
+    },
+    {
+        "name": "Upgrade Druid's Eye"
+    },
+    {
+        "name": "Wanderer's Crest"
+    },
+    {
+        "name": "Reaper's Crest"
+    },
+    {
+        "name": "Beast's Crest"
+    },
+    {
+        "name": "Clawline"
+    },
+    {
+        "name": "Needle Art"
+    },
+    {
+        "name": "Needle 2"
+    },
+    {
+        "name": "Thread Storm"
+    },
+    {
+        "name": "Sharpdart"
+    },
+    {
+        "name": "Evolved Hunter's Crest"
+    },
+    {
+        "name": "Faydown Cloak"
+    },
+    {
+        "name": "3 Silk Skills"
+    },
+    {
+        "name": "Farfields Escape Mask Shard"
+    },
+    {
+        "name": "Slab Mask Shard"
+    },
+    {
+        "name": "Bilewater Mask Shard"
+    },
+    {
+        "name": "Shellwood Mask Shard"
+    },
+    {
+        "name": "Blasted Steps Mask Shard"
+    },
+    {
+        "name": "Cogwork Core Mask Shard"
     },
     {
         "name": "Craggler"
@@ -261,16 +279,16 @@
         "name": "Obtain Mossberry Soup"
     },
     {
-        "name": "Upgrade Druid's Eye"
-    },
-    {
         "name": "Twisted Bud"
     },
     {
         "name": "Both Free Simple Keys"
     },
     {
-        "name": "1 Extra Mask"
+        "name": "1 Extra Masks"
+    },
+    {
+        "name": "2 Extra Masks"
     },
     {
         "name": "Pay for a Flea Spa"
@@ -330,6 +348,9 @@
         "name": "2 Spool Upgrades"
     },
     {
+        "name": "3 Spool Upgrades"
+    },
+    {
         "name": "Have 4 Rosary Strings (no purchasing)"
     },
     {
@@ -340,6 +361,9 @@
     },
     {
         "name": "Break 6 Rosary Strings (no purchasing)"
+    },
+    {
+        "name": "Have 4 Shard Bundles (no purchasing)"
     },
     {
         "name": "Have 6 Shard Bundles (no purchasing)"

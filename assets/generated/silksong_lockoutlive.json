@@ -31,7 +31,8 @@
         {
             "goal": "{{X}} Donations Quests",
             "range": [
-                2
+                2,
+                3
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -46,7 +47,8 @@
         {
             "goal": "{{X}} Hunt Quests",
             "range": [
-                2
+                2,
+                4
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -61,11 +63,13 @@
         {
             "goal": "{{X}} Wayfarer Quests",
             "range": [
-                2
+                2,
+                4
             ],
             "individual_limit": 1,
             "board_categories": [
                 "walljump",
+                "act2",
                 "flea"
             ],
             "line_categories": [
@@ -77,7 +81,8 @@
         {
             "goal": "{{X}} Gather Quests",
             "range": [
-                2
+                2,
+                3
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -92,7 +97,8 @@
         {
             "goal": "Complete {{X}} Quests",
             "range": [
-                5
+                5,
+                7
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -280,7 +286,7 @@
             "icons": []
         },
         {
-            "goal": "Curveclaw & Magma Bell",
+            "goal": "Magma Bell & Curveclaw",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -312,181 +318,6 @@
                 "tool"
             ],
             "line_categories": [],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Wanderer's Crest",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Reaper's Crest",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Beast's Crest",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Clawline",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2",
-                "clawline",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade",
-                "lockout"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Needle Art",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump"
-            ],
-            "line_categories": [
-                "upgrade",
-                "fight"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Plasmium Phial",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump",
-                "tool",
-                "key"
-            ],
-            "line_categories": [
-                "quest"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Needle 2",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2"
-            ],
-            "line_categories": [
-                "upgrade",
-                "quest"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Thread Storm",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Sharpdart",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak",
-                "key",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Evolved Hunter's Crest",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Faydown Cloak",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "clawline",
-                "faydown",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "{{X}} Silk Skills",
-            "range": [
-                3
-            ],
-            "individual_limit": 1,
-            "board_categories": [
-                "walljump",
-                "hardsave"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
             "tooltip": "",
             "icons": []
         },
@@ -533,79 +364,16 @@
             "icons": []
         },
         {
-            "goal": "Farfields Escape Mask Shard",
+            "goal": "Plasmium Phial",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "clawline"
+                "walljump",
+                "tool",
+                "key"
             ],
             "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Slab Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Bilewater Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Shellwood Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "cloak"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Blasted Steps Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown"
-            ],
-            "line_categories": [
-                "upgrade"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Cogwork Core Mask Shard",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2"
-            ],
-            "line_categories": [
-                "upgrade"
+                "quest"
             ],
             "tooltip": "",
             "icons": []
@@ -710,6 +478,258 @@
                 "craft"
             ],
             "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Upgrade Druid's Eye",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown",
+                "tool"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Wanderer's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Reaper's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Beast's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Clawline",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
+                "clawline",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade",
+                "lockout"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Needle Art",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade",
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Needle 2",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "upgrade",
+                "quest"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Thread Storm",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Sharpdart",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak",
+                "key",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Evolved Hunter's Crest",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Faydown Cloak",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline",
+                "faydown",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "{{X}} Silk Skills",
+            "range": [
+                3
+            ],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "hardsave"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Farfields Escape Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Slab Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Bilewater Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Shellwood Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "cloak"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Blasted Steps Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Cogwork Core Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
             "tooltip": "",
             "icons": []
         },
@@ -1165,20 +1185,6 @@
             "icons": []
         },
         {
-            "goal": "Upgrade Druid's Eye",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "faydown",
-                "tool"
-            ],
-            "line_categories": [
-                "collection"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
             "goal": "Twisted Bud",
             "range": [],
             "individual_limit": 1,
@@ -1205,9 +1211,10 @@
             "icons": []
         },
         {
-            "goal": "{{X}} Extra Mask",
+            "goal": "{{X}} Extra Masks",
             "range": [
-                1
+                1,
+                2
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -1430,7 +1437,8 @@
             "goal": "{{X}} Spool Upgrades",
             "range": [
                 1,
-                2
+                2,
+                3
             ],
             "individual_limit": 1,
             "board_categories": [
@@ -1492,6 +1500,7 @@
         {
             "goal": "Have {{X}} Shard Bundles (no purchasing)",
             "range": [
+                4,
                 6
             ],
             "individual_limit": 1,

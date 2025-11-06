@@ -1,12 +1,22 @@
 **2 Donations Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
 
+**3 Donations Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
+
 **2 Hunt Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
 
-**2 Wayfarer Quests** | Progression level(s): ['widow'] | Other tags: ['quest', 'flea']
+**4 Hunt Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
+
+**2 Wayfarer Quests** | Progression level(s): ['widow', 'act2'] | Other tags: ['quest', 'flea']
+
+**4 Wayfarer Quests** | Progression level(s): ['widow', 'act2'] | Other tags: ['quest', 'flea']
 
 **2 Gather Quests** | Progression level(s): ['walljump'] | Other tags: ['quest']
 
+**3 Gather Quests** | Progression level(s): ['walljump'] | Other tags: ['quest']
+
 **Complete 5 Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
+
+**Complete 7 Quests** | Progression level(s): ['cloak'] | Other tags: ['quest']
 
 **Break a Courier Item** | Progression level(s): ['act2'] | Other tags: ['quest']
 
@@ -38,35 +48,11 @@
 
 **Curveclaw & Sawtooth Circlet** | Progression level(s): ['clawline'] | Other tags: ['tool']
 
-**Curveclaw & Magma Bell** | Progression level(s): ['early'] | Other tags: ['tool']
+**Magma Bell & Curveclaw** | Progression level(s): ['early'] | Other tags: ['tool']
 
 **Sting Shard & Asendant's Grip** | Progression level(s): ['act2'] | Other tags: ['tool']
 
 **Delver's Drill** | Progression level(s): ['act2'] | Other tags: ['tool']
-
-**Wanderer's Crest** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
-
-**Reaper's Crest** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
-
-**Beast's Crest** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
-
-**Clawline** | Progression level(s): ['act2', 'clawline'] | Other tags: ['upgrade', 'hardsave', 'lockout']
-
-**Needle Art** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'fight']
-
-**Plasmium Phial** | Progression level(s): ['walljump'] | Other tags: ['tool', 'quest', 'key']
-
-**Needle 2** | Progression level(s): ['act2'] | Other tags: ['upgrade', 'quest']
-
-**Thread Storm** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
-
-**Sharpdart** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'key', 'hardsave']
-
-**Evolved Hunter's Crest** | Progression level(s): ['widow'] | Other tags: ['upgrade', 'hardsave']
-
-**Faydown Cloak** | Progression level(s): ['clawline', 'faydown'] | Other tags: ['upgrade', 'hardsave']
-
-**3 Silk Skills** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
 
 **Pollip Pouch** | Progression level(s): ['walljump'] | Other tags: ['tool', 'quest']
 
@@ -74,17 +60,7 @@
 
 **Weavelight** | Progression level(s): ['widow'] | Other tags: ['tool', 'fight']
 
-**Farfields Escape Mask Shard** | Progression level(s): ['clawline'] | Other tags: ['upgrade']
-
-**Slab Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
-
-**Bilewater Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
-
-**Shellwood Mask Shard** | Progression level(s): ['cloak'] | Other tags: ['upgrade']
-
-**Blasted Steps Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
-
-**Cogwork Core Mask Shard** | Progression level(s): ['act2'] | Other tags: ['upgrade']
+**Plasmium Phial** | Progression level(s): ['walljump'] | Other tags: ['tool', 'quest', 'key']
 
 **Memory Crystal** | Progression level(s): ['clawline'] | Other tags: ['tool']
 
@@ -101,6 +77,42 @@
 **Rosary Canon** | Progression level(s): ['clawline'] | Other tags: ['tool', 'key']
 
 **Cogfly** | Progression level(s): ['clawline'] | Other tags: ['tool', 'craft']
+
+**Upgrade Druid's Eye** | Progression level(s): ['faydown'] | Other tags: ['collection', 'tool']
+
+**Wanderer's Crest** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
+
+**Reaper's Crest** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
+
+**Beast's Crest** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
+
+**Clawline** | Progression level(s): ['act2', 'clawline'] | Other tags: ['upgrade', 'hardsave', 'lockout']
+
+**Needle Art** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'fight']
+
+**Needle 2** | Progression level(s): ['act2'] | Other tags: ['upgrade', 'quest']
+
+**Thread Storm** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'hardsave']
+
+**Sharpdart** | Progression level(s): ['cloak'] | Other tags: ['upgrade', 'key', 'hardsave']
+
+**Evolved Hunter's Crest** | Progression level(s): ['widow'] | Other tags: ['upgrade', 'hardsave']
+
+**Faydown Cloak** | Progression level(s): ['clawline', 'faydown'] | Other tags: ['upgrade', 'hardsave']
+
+**3 Silk Skills** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
+
+**Farfields Escape Mask Shard** | Progression level(s): ['clawline'] | Other tags: ['upgrade']
+
+**Slab Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
+
+**Bilewater Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
+
+**Shellwood Mask Shard** | Progression level(s): ['cloak'] | Other tags: ['upgrade']
+
+**Blasted Steps Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
+
+**Cogwork Core Mask Shard** | Progression level(s): ['act2'] | Other tags: ['upgrade']
 
 **Craggler** | Progression level(s): ['early'] | Other tags: ['fight']
 
@@ -172,13 +184,13 @@
 
 **Obtain Mossberry Soup** | Progression level(s): ['act2'] | Other tags: ['collection']
 
-**Upgrade Druid's Eye** | Progression level(s): ['faydown'] | Other tags: ['collection', 'tool']
-
 **Twisted Bud** | Progression level(s): ['act2'] | Other tags: ['collection']
 
 **Both Free Simple Keys** | Progression level(s): ['clawline'] | Other tags: ['collection']
 
-**1 Extra Mask** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
+**1 Extra Masks** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
+
+**2 Extra Masks** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
 
 **Pay for a Flea Spa** | Progression level(s): ['walljump'] | Other tags: ['npc', 'flea']
 
@@ -218,6 +230,8 @@
 
 **2 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
 
+**3 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
+
 **Have 4 Rosary Strings (no purchasing)** | Progression level(s): ['dash', 'act2'] | Other tags: ['collection']
 
 **Have 8 Rosary Strings (no purchasing)** | Progression level(s): ['dash', 'act2'] | Other tags: ['collection']
@@ -225,6 +239,8 @@
 **Have 3 Rosary Necklaces (no purchasing)** | Progression level(s): ['act2'] | Other tags: ['collection']
 
 **Break 6 Rosary Strings (no purchasing)** | Progression level(s): ['widow'] | Other tags: ['collection']
+
+**Have 4 Shard Bundles (no purchasing)** | Progression level(s): ['walljump', 'act2'] | Other tags: ['collection']
 
 **Have 6 Shard Bundles (no purchasing)** | Progression level(s): ['walljump', 'act2'] | Other tags: ['collection']
 
