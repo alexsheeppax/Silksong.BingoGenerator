@@ -103,7 +103,10 @@ def board(allGoals:dict, exclusionDic, **kwargs):
             for tag in goalTags:
                 if tag in tagLimits.keys(): #tag has a limit
                     if tagLimits[tag] == 0: #limit has been reached
-                        allGoals.remove(newGoal)
+                        try:
+                            allGoals.remove(newGoal)
+                        except ValueError: #goal already gone
+                            pass
                         skip = True #remove goal from list and redraw
                     else:
                         tagLimits[tag] = tagLimits[tag] - 1 #decrement tag limit
