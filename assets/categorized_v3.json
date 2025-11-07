@@ -1270,16 +1270,6 @@
       ]
     },
     {
-      "name": "Open White Ward",
-      "types": [
-        "location",
-        "lockout"
-      ],
-      "progression": [
-        "act2"
-      ]
-    },
-    {
       "name": "Talk to Forge Daughter and Twelfth Architect",
       "types": [
         "npc"
