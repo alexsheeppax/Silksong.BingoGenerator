@@ -1230,7 +1230,7 @@
       ]
     },
     {
-      "name": "Save Jubliana",
+      "name": "Save Jubilana",
       "types": [
         "npc",
         "quest"
@@ -1400,7 +1400,7 @@
     },
     {
       "unique": [
-        "Save Jubliana",
+        "Save Jubilana",
         "Sting Shard & Asendant's Grip"
       ]
     },
