@@ -1199,7 +1199,7 @@
       ]
     },
     {
-      "name": "Buy {{X}} maps",
+      "name": "Obtain {{X}} maps",
       "types": [
         "npc"
       ],
