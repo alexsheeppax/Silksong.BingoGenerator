@@ -965,6 +965,8 @@
       ],
       "range": [
         8,
+        10,
+        12,
         14
       ]
     },
@@ -1496,8 +1498,7 @@
     {
       "unique" : [
         "Free {{X}} Fleas",
-        "Meet Caravan at the Grand Gate",
-        "Meet Caravan in Greymoor"
+        "Meet Caravan at the Grand Gate"
       ]
     }
   ]
