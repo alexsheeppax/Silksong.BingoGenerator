@@ -1331,6 +1331,8 @@
             "goal": "Free {{X}} fleas",
             "range": [
                 8,
+                10,
+                12,
                 14
             ],
             "individual_limit": 1,
@@ -1624,7 +1626,7 @@
             "icons": []
         },
         {
-            "goal": "Buy {{X}} maps",
+            "goal": "Obtain {{X}} maps",
             "range": [
                 5
             ],
@@ -1666,7 +1668,7 @@
             "icons": []
         },
         {
-            "goal": "Save Jubliana",
+            "goal": "Save Jubilana",
             "range": [],
             "individual_limit": 1,
             "board_categories": [
@@ -1718,20 +1720,6 @@
             ],
             "line_categories": [
                 "location"
-            ],
-            "tooltip": "",
-            "icons": []
-        },
-        {
-            "goal": "Open White Ward",
-            "range": [],
-            "individual_limit": 1,
-            "board_categories": [
-                "act2"
-            ],
-            "line_categories": [
-                "location",
-                "lockout"
             ],
             "tooltip": "",
             "icons": []

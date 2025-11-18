@@ -210,6 +210,10 @@
 
 **Free 8 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
 
+**Free 10 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
+
+**Free 12 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
+
 **Free 14 fleas** | Progression level(s): ['cloak'] | Other tags: ['flea']
 
 **Meet Caravan at the Grand Gate** | Progression level(s): ['act2'] | Other tags: ['flea']
@@ -260,13 +264,13 @@
 
 **Talk to Shakra in 8 different areas** | Progression level(s): ['cloak'] | Other tags: ['npc']
 
-**Buy 5 maps** | Progression level(s): ['dash'] | Other tags: ['npc']
+**Obtain 5 maps** | Progression level(s): ['dash'] | Other tags: ['npc']
 
 **Talk to Shakra in Bilewater** | Progression level(s): ['faydown'] | Other tags: ['npc', 'location']
 
 **Talk to Huntress** | Progression level(s): ['faydown'] | Other tags: ['npc']
 
-**Save Jubliana** | Progression level(s): ['act2'] | Other tags: ['npc', 'quest']
+**Save Jubilana** | Progression level(s): ['act2'] | Other tags: ['npc', 'quest']
 
 **Squirrm Journal Entry** | Progression level(s): ['widow'] | Other tags: ['collection']
 
@@ -275,8 +279,6 @@
 **Obtain 4 Beast Shards** | Progression level(s): ['early', 'walljump'] | Other tags: ['fight']
 
 **Bilewater Bellway** | Progression level(s): ['walljump'] | Other tags: ['location']
-
-**Open White Ward** | Progression level(s): ['act2'] | Other tags: ['location', 'lockout']
 
 **Talk to Forge Daughter and Twelfth Architect** | Progression level(s): ['clawline'] | Other tags: ['npc']
 
