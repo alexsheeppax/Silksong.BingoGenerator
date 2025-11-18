@@ -35,7 +35,10 @@ ROOM_NAMES = [
     "Architect Crest",
     "Bingy Bingus Bongus Blafoingus",
     "Beast Boost Uppie Strike",
-    "Silkeater Noclip"
+    "Silkeater Noclip",
+    "Archies Mossberry",
+    "Key Route",
+    "Silver Bells Loop"
 ]
 
 STANDARD_PAYLOAD = {
