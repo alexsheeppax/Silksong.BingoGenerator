@@ -867,20 +867,24 @@
       ]
     },
     {
-      "name": "{{X}} Extra Masks",
+      "name": "1 Extra Mask",
       "types": [
         "upgrade"
       ],
       "progression": [
-        "dash",
-        "cloak"
-      ],
-      "range": [
-        1,
-        2
+        "widow"
       ]
     },
-        {
+    {
+      "name": "2 Extra Masks",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
       "name": "Pay for a Flea Spa",
       "types": [
         "npc",
@@ -1038,17 +1042,30 @@
       ]
     },
     {
-      "name": "{{X}} Spool Upgrades",
+      "name": "1 Spool Upgrade",
       "types": [
         "upgrade"
       ],
       "progression": [
-        "widow"
+        "early"
+      ]
+    },
+    {
+      "name": "2 Spool Upgrades",
+      "types": [
+        "upgrade"
       ],
-      "range": [
-        1,
-        2,
-        3
+      "progression": [
+        "walljump"
+      ]
+    },
+    {
+      "name": "3 Spool Upgrades",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "clawline"
       ]
     },
     {
@@ -1490,6 +1507,15 @@
         "Underworks Fleas [2]"
       ]
     },
+    {"unique": [
+      "1 Spool Upgrade",
+      "2 Spool Upgrades",
+      "3 Spool Upgrades"
+    ]},
+    {"unique": [
+      "1 Extra Mask",
+      "2 Extra Masks"
+    ]},
     {
       "limit": 4,
       "unique": [

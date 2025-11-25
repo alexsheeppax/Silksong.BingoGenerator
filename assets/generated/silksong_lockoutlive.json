@@ -1211,15 +1211,24 @@
             "icons": []
         },
         {
-            "goal": "{{X}} Extra Masks",
-            "range": [
-                1,
-                2
-            ],
+            "goal": "1 Extra Mask",
+            "range": [],
             "individual_limit": 1,
             "board_categories": [
-                "dash",
-                "cloak"
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 Extra Masks",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
             ],
             "line_categories": [
                 "upgrade"
@@ -1436,15 +1445,37 @@
             "icons": []
         },
         {
-            "goal": "{{X}} Spool Upgrades",
-            "range": [
-                1,
-                2,
-                3
+            "goal": "1 Spool Upgrade",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early"
             ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "2 Spool Upgrades",
+            "range": [],
             "individual_limit": 1,
             "board_categories": [
                 "walljump"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "3 Spool Upgrades",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
             ],
             "line_categories": [
                 "upgrade"

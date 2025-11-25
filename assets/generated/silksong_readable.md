@@ -188,9 +188,9 @@
 
 **Both Free Simple Keys** | Progression level(s): ['clawline'] | Other tags: ['collection']
 
-**1 Extra Masks** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
+**1 Extra Mask** | Progression level(s): ['widow'] | Other tags: ['upgrade']
 
-**2 Extra Masks** | Progression level(s): ['dash', 'cloak'] | Other tags: ['upgrade']
+**2 Extra Masks** | Progression level(s): ['act2'] | Other tags: ['upgrade']
 
 **Pay for a Flea Spa** | Progression level(s): ['walljump'] | Other tags: ['npc', 'flea']
 
@@ -230,11 +230,11 @@
 
 **Meet Caravan in Greymoor** | Progression level(s): ['dash'] | Other tags: ['quest', 'tool', 'flea']
 
-**1 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
+**1 Spool Upgrade** | Progression level(s): ['early'] | Other tags: ['upgrade']
 
-**2 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
+**2 Spool Upgrades** | Progression level(s): ['walljump'] | Other tags: ['upgrade']
 
-**3 Spool Upgrades** | Progression level(s): ['widow'] | Other tags: ['upgrade']
+**3 Spool Upgrades** | Progression level(s): ['clawline'] | Other tags: ['upgrade']
 
 **Have 4 Rosary Strings (no purchasing)** | Progression level(s): ['dash', 'act2'] | Other tags: ['collection']
 
