@@ -1,4 +1,4 @@
-import discord, board, os, json, network
+import discord, board, os, json, network, random
 from discord import app_commands
 from typing import Optional
 
@@ -107,6 +107,55 @@ async def advancedboard(interaction: discord.Interaction, tags: str):
     noTags = [t.strip() for t in tags.split(",")]
     thisBoard = board.bingosyncBoard(noTags=noTags)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
+
+@client.tree.command()
+@app_commands.describe(hands="Comma-seperated list of names.")
+@app_commands.describe(brains="Comma-seperated list of names.")
+async def handbrainteams(interaction: discord.Interaction, hands: str, brains: str):
+    """Splits hands and brains into teams."""
+    handsList = hands.split(",")
+    random.shuffle(handsList)
+    brainsList = brains.split(",")
+    random.shuffle(brainsList)
+    teams = zip(handsList, brainsList)
+    out = "The teams are:/n"
+    for hand, brain in teams:
+        out = out + f"{hand}, {brain}/n"
+    await interaction.response.send_message(out)
+
+@client.tree.command()
+@app_commands.describe(hands="Comma-seperated list of names.")
+@app_commands.describe(artists="Comma-seperated list of names.")
+@app_commands.describe(interpreters="Comma-seperated list of names.")
+async def pictionaryteams(interaction: discord.Interaction, hands: str, artists: str, interpreters: str):
+    """Splits the players into pictionary teams."""
+    handsList = hands.split(",")
+    random.shuffle(handsList)
+    brainsList = interpreters.split(",")
+    random.shuffle(brainsList)
+    artList = artists.split(",")
+    random.shuffle(artList)
+    teams = zip(handsList, brainsList, artList)
+    out = "The teams are:/n"
+    for hand, brain, art in teams:
+        out = out + f"{hand}, {brain}, {art}/n"
+    await interaction.response.send_message(out)
+
+@client.tree.command()
+@app_commands.describe(players="Comma-seperated list of names.")
+@app_commands.describe(teamsize="Players per team")
+async def teams(interaction: discord.Interaction, players: str, teamsize: int):
+    """Splits players into teams."""
+    playerList = players.split(",")
+    random.shuffle(playerList)
+    #check for sanity
+    if len(playerList) % teamsize != 0:
+        await interaction.response.send_message("That many players cannot be divided into teams of that size.", ephemeral=True)
+    out = "The teams are:/n"
+    for i in range(0, len(playerList), teamsize):
+        team = playerList[i:i+teamsize]
+        out = out + f"{team}/n"
+    await interaction.response.send_message(out)
 
 if __name__ == "__main__":
     client.run(config()["token"])
