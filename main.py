@@ -118,9 +118,9 @@ async def handbrainteams(interaction: discord.Interaction, hands: str, brains: s
     brainsList = brains.split(",")
     random.shuffle(brainsList)
     teams = zip(handsList, brainsList)
-    out = "The teams are:/n"
+    out = "The teams are:\n"
     for hand, brain in teams:
-        out = out + f"{hand}, {brain}/n"
+        out = out + f"{hand}, {brain}\n"
     await interaction.response.send_message(out)
 
 @client.tree.command()
@@ -136,9 +136,9 @@ async def pictionaryteams(interaction: discord.Interaction, hands: str, artists:
     artList = artists.split(",")
     random.shuffle(artList)
     teams = zip(handsList, brainsList, artList)
-    out = "The teams are:/n"
+    out = "The teams are:\n"
     for hand, brain, art in teams:
-        out = out + f"{hand}, {brain}, {art}/n"
+        out = out + f"{hand}, {brain}, {art}\n"
     await interaction.response.send_message(out)
 
 @client.tree.command()
@@ -151,10 +151,10 @@ async def teams(interaction: discord.Interaction, players: str, teamsize: int):
     #check for sanity
     if len(playerList) % teamsize != 0:
         await interaction.response.send_message("That many players cannot be divided into teams of that size.", ephemeral=True)
-    out = "The teams are:/n"
+    out = "The teams are:\n"
     for i in range(0, len(playerList), teamsize):
         team = playerList[i:i+teamsize]
-        out = out + f"{team}/n"
+        out = out + f"{team}\n"
     await interaction.response.send_message(out)
 
 if __name__ == "__main__":
