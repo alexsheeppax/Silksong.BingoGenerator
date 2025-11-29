@@ -184,7 +184,7 @@
 
 **Obtain Mossberry Soup** | Progression level(s): ['act2'] | Other tags: ['collection']
 
-**Twisted Bud** | Progression level(s): ['act2'] | Other tags: ['collection']
+**Twisted Bud** | Progression level(s): ['clawline'] | Other tags: ['collection']
 
 **Both Free Simple Keys** | Progression level(s): ['clawline'] | Other tags: ['collection']
 
