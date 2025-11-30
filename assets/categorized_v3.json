@@ -1340,11 +1340,11 @@
         "fight"
       ],
       "progression": [
-        "early",
         "walljump"
       ],
       "range": [
         2,
+        3,
         4
       ]
     },

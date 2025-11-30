@@ -1826,11 +1826,11 @@
             "goal": "Obtain {{X}} Beast Shards",
             "range": [
                 2,
+                3,
                 4
             ],
             "individual_limit": 1,
             "board_categories": [
-                "early",
                 "walljump"
             ],
             "line_categories": [

@@ -288,9 +288,11 @@
 
 **Slap Nuu** | Progression level(s): ['faydown'] | Other tags: ['quest', 'collection', 'silly']
 
-**Obtain 2 Beast Shards** | Progression level(s): ['early', 'walljump'] | Other tags: ['fight']
+**Obtain 2 Beast Shards** | Progression level(s): ['walljump'] | Other tags: ['fight']
 
-**Obtain 4 Beast Shards** | Progression level(s): ['early', 'walljump'] | Other tags: ['fight']
+**Obtain 3 Beast Shards** | Progression level(s): ['walljump'] | Other tags: ['fight']
+
+**Obtain 4 Beast Shards** | Progression level(s): ['walljump'] | Other tags: ['fight']
 
 **Bilewater Bellway** | Progression level(s): ['walljump'] | Other tags: ['location']
 
