@@ -148,6 +148,11 @@ def bingosyncBoard(noTags=[], **kwargs):
     else:
         limits = None
 
+    if "silly" in kwargs.keys() and kwargs["silly"]:
+        pass
+    else: #exclude silly by default
+        noTags.append("silly")
+
     boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags), tagLimits=limits)
     out = []
     for name in boardList:
