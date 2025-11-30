@@ -136,6 +136,8 @@
 
 **Phantom** | Progression level(s): ['widow'] | Other tags: ['fight']
 
+**Fail the Phantom Cutscene** | Progression level(s): ['widow'] | Other tags: ['fight', 'silly']
+
 **Trobbio** | Progression level(s): ['act2'] | Other tags: ['fight']
 
 **Disgraced Chef Lugoli** | Progression level(s): ['faydown'] | Other tags: ['fight']
@@ -230,6 +232,14 @@
 
 **Meet Caravan in Greymoor** | Progression level(s): ['dash'] | Other tags: ['quest', 'tool', 'flea']
 
+**Hit a Hoker with the Flea Bottle** | Progression level(s): ['dash'] | Other tags: ['flea', 'tool', 'quest', 'silly']
+
+**Deep Docks Spool Fragments (2)** | Progression level(s): ['clawline'] | Other tags: ['upgrade']
+
+**Greymoor Spool Fragment** | Progression level(s): ['walljump'] | Other tags: ['upgrade']
+
+**Grand Gate Spool Fragment** | Progression level(s): ['act2'] | Other tags: ['upgrade']
+
 **1 Spool Upgrade** | Progression level(s): ['early'] | Other tags: ['upgrade']
 
 **2 Spool Upgrades** | Progression level(s): ['walljump'] | Other tags: ['upgrade']
@@ -273,6 +283,8 @@
 **Save Jubilana** | Progression level(s): ['act2'] | Other tags: ['npc', 'quest']
 
 **Squirrm Journal Entry** | Progression level(s): ['widow'] | Other tags: ['collection']
+
+**Slap Nuu** | Progression level(s): ['faydown'] | Other tags: ['quest', 'collection', 'silly']
 
 **Obtain 2 Beast Shards** | Progression level(s): ['early', 'walljump'] | Other tags: ['fight']
 

@@ -633,6 +633,16 @@
       "weight" : 2
     },
     {
+      "name": "Fail the Phantom Cutscene",
+      "types": [
+        "fight",
+        "silly"
+      ],
+      "progression": [
+        "widow"
+      ]
+    },
+    {
       "name": "Trobbio",
       "types": [
         "fight"
@@ -1036,6 +1046,18 @@
         "quest",
         "tool",
         "flea"
+      ],
+      "progression": [
+        "dash"
+      ]
+    },
+    {
+      "name": "Hit a Hoker with the Flea Bottle",
+      "types": [
+        "flea",
+        "tool",
+        "quest",
+        "silly"
       ],
       "progression": [
         "dash"

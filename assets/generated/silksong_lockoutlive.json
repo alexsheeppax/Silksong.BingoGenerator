@@ -878,6 +878,20 @@
             "icons": []
         },
         {
+            "goal": "Fail the Phantom Cutscene",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "fight",
+                "silly"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Trobbio",
             "range": [],
             "individual_limit": 1,
@@ -1445,6 +1459,61 @@
             "icons": []
         },
         {
+            "goal": "Hit a Hoker with the Flea Bottle",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "dash",
+                "flea",
+                "tool"
+            ],
+            "line_categories": [
+                "quest",
+                "silly"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Deep Docks Spool Fragments (2)",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "clawline"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Greymoor Spool Fragment",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Grand Gate Spool Fragment",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "1 Spool Upgrade",
             "range": [],
             "individual_limit": 1,
@@ -1721,6 +1790,21 @@
             ],
             "line_categories": [
                 "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Slap Nuu",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "quest",
+                "collection",
+                "silly"
             ],
             "tooltip": "",
             "icons": []

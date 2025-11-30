@@ -207,6 +207,9 @@
         "name": "Phantom"
     },
     {
+        "name": "Fail the Phantom Cutscene"
+    },
+    {
         "name": "Trobbio"
     },
     {
@@ -348,6 +351,18 @@
         "name": "Meet Caravan in Greymoor"
     },
     {
+        "name": "Hit a Hoker with the Flea Bottle"
+    },
+    {
+        "name": "Deep Docks Spool Fragments (2)"
+    },
+    {
+        "name": "Greymoor Spool Fragment"
+    },
+    {
+        "name": "Grand Gate Spool Fragment"
+    },
+    {
         "name": "1 Spool Upgrade"
     },
     {
@@ -412,6 +427,9 @@
     },
     {
         "name": "Squirrm Journal Entry"
+    },
+    {
+        "name": "Slap Nuu"
     },
     {
         "name": "Obtain 2 Beast Shards"
