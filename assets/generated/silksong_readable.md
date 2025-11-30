@@ -284,6 +284,8 @@
 
 **Squirrm Journal Entry** | Progression level(s): ['widow'] | Other tags: ['collection']
 
+**Skullwing Journal Entry** | Progression level(s): ['widow'] | Other tags: ['collection']
+
 **Slap Nuu** | Progression level(s): ['faydown'] | Other tags: ['quest', 'collection', 'silly']
 
 **Obtain 2 Beast Shards** | Progression level(s): ['early', 'walljump'] | Other tags: ['fight']

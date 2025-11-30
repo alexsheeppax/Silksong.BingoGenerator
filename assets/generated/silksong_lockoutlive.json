@@ -1795,6 +1795,19 @@
             "icons": []
         },
         {
+            "goal": "Skullwing Journal Entry",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump"
+            ],
+            "line_categories": [
+                "collection"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Slap Nuu",
             "range": [],
             "individual_limit": 1,

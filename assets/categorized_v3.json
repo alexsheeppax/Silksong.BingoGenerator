@@ -1315,6 +1315,15 @@
       ]
     },
     {
+      "name": "Skullwing Journal Entry",
+      "types": [
+        "collection"
+      ],
+      "progression": [
+        "widow"
+      ]
+    },
+    {
       "name": "Slap Nuu",
       "types": [
         "quest",
