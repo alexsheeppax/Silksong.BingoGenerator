@@ -1042,6 +1042,33 @@
       ]
     },
     {
+      "name": "Deep Docks Spool Fragments (2)",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "clawline"
+      ]
+    },
+    {
+      "name": "Greymoor Spool Fragment",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "walljump"
+      ]
+    },
+    {
+      "name": "Grand Gate Spool Fragment",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "act2"
+      ]
+    },
+    {
       "name": "1 Spool Upgrade",
       "types": [
         "upgrade"
@@ -1263,6 +1290,17 @@
       ],
       "progression": [
         "widow"
+      ]
+    },
+    {
+      "name": "Slap Nuu",
+      "types": [
+        "quest",
+        "collection",
+        "silly"
+      ],
+      "progression": [
+        "faydown"
       ]
     },
     {
@@ -1512,6 +1550,12 @@
       "2 Spool Upgrades",
       "3 Spool Upgrades"
     ]},
+    {
+      "unique": [
+        "1 Spool Upgrade",
+        "Deep Docks Spool Fragments (2)"
+      ]
+    },
     {"unique": [
       "1 Extra Mask",
       "2 Extra Masks"
@@ -1532,6 +1576,12 @@
       "unique" : [
         "Free {{X}} Fleas",
         "Meet Caravan at the Grand Gate"
+      ]
+    },
+    {
+      "unique" : [
+        "Grand Gate Spool Fragment",
+        "Last Judge"
       ]
     }
   ]
