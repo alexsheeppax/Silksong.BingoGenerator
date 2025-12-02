@@ -15,9 +15,11 @@ ROOM_NAMES = [
     "Choral Chambers",
     "Wispfire Lantern",
     "OOSHKA NEEPLY",
+    "Neepless",
     "Flea Route",
     "Cloakless",
     "Double Shanka",
+    "Quad Shanka",
     "Looks to the Moon",
     "Silkshot Weaver",
     "Weavenest Absolom",
@@ -38,7 +40,19 @@ ROOM_NAMES = [
     "Silkeater Noclip",
     "Archies Mossberry",
     "Key Route",
-    "Silver Bells Loop"
+    "Silver Bells Loop",
+    "Sawtooth",
+    "Hang_08",
+    "Lets Go Gambling",
+    "Cog_08",
+    "Dust_Maze_07",
+    "Failure",
+    "Triple GMS",
+    "Early Second Skarrguard",
+    "Git Gud",
+    "Proper Substance Use",
+    "Ms Streamer",
+    "I Suggest Forcefem"
 ]
 
 STANDARD_PAYLOAD = {
