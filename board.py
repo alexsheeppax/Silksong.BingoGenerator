@@ -108,8 +108,6 @@ def board(allGoals:dict, exclusionDic, **kwargs):
                         except ValueError: #goal already gone
                             pass
                         skip = True #remove goal from list and redraw
-                    else:
-                        tagLimits[tag] = tagLimits[tag] - 1 #decrement tag limit
         if skip:
             continue
 
@@ -120,6 +118,12 @@ def board(allGoals:dict, exclusionDic, **kwargs):
         if exclusions: #exclusions is false if limit > 1 or no exclusions found
             for excludedGoal in exclusions:
                 allGoals = removeGoalByName(allGoals, excludedGoal)
+
+        #decrement tag limits
+        if tagLimits is not None:
+            for tag in goalTags:
+                if tag in tagLimits.keys(): #tag has a limit
+                    tagLimits[tag] = tagLimits[tag] - 1 #decrement tag limit
 
         #format ranges and append to list
         if "range" in newGoal.keys(): #goal has a range
@@ -271,5 +275,5 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1, "flea" : 3})
+    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1, "flea" : 3, "clawline":1, "fight":2})
     print(json.dumps(thisBoard))
