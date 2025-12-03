@@ -6,8 +6,8 @@ CONFIG_PATH = os.path.join("config","settings.dat")
 
 BOARD_KWARGS = { #sensible defaults for new boards
     "tagLimits" : {
-        "craftmetal" : 3,
-        "flea" : 4
+        "craft" : 3,
+        "flea" : 6
     }
 }
 
