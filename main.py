@@ -105,6 +105,8 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
 @client.tree.command()
 async def newdoublingy(interaction: discord.Interaction):
     """Generates a pair of doublingy rooms."""
+    await interaction.response.defer(thinking=True)
+    
     act1Tags = ["act2", "clawline", "faydown", "lockout"]
     act2Tags = ["early", "dash", "cloak", "walljump", "widow", "lockout"]
     act1Board, act2Board = board.linkedBoards(noTags=(act1Tags, act2Tags))
@@ -112,7 +114,7 @@ async def newdoublingy(interaction: discord.Interaction):
     n1, rId1 = bsSession.newRoom(json.dumps(act1Board), lockout=False)
     n2, rId2 = bsSession.newRoom(json.dumps(act2Board), lockout=False)
     bsSession.close()
-    await interaction.response.send_message(f"Act 1 room: {n1} at https://bingosync.com/room/{rId1}\nAct 2 room: {n2} at https://bingosync.com/room/{rId2}")
+    await interaction.followup.send(f"Act 1 room: {n1} at https://bingosync.com/room/{rId1}\nAct 2 room: {n2} at https://bingosync.com/room/{rId2}")
 
 @client.tree.command()
 @app_commands.describe(tags="Comma-seperated tags to exclude from board generation")
