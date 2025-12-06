@@ -109,8 +109,8 @@ async def newdoublingy(interaction: discord.Interaction):
     act2Tags = ["early", "dash", "cloak", "walljump", "widow", "lockout"]
     act1Board, act2Board = board.linkedBoards(noTags=(act1Tags, act2Tags))
     bsSession = network.bingosyncClient()
-    n1, rId1 = bsSession.newRoom(json.dumps(act1Board), lockout=lockout)
-    n2, rId2 = bsSession.newRoom(json.dumps(act2Board), lockout=lockout)
+    n1, rId1 = bsSession.newRoom(json.dumps(act1Board), lockout=False)
+    n2, rId2 = bsSession.newRoom(json.dumps(act2Board), lockout=False)
     bsSession.close()
     await interaction.response.send_message(f"Act 1 room: {n1} at https://bingosync.com/room/{rId1}\nAct 2 room: {n2} at https://bingosync.com/room/{rId2}")
 
