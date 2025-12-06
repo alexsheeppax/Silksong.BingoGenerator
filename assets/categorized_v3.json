@@ -748,7 +748,8 @@
     {
       "name": "Fail a Loddie Minigame",
       "types": [
-        "npc"
+        "npc",
+        "silly"
       ],
       "progression": [
         "widow"
