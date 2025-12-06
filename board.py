@@ -186,7 +186,8 @@ def linkedBoards(noTags, **kwargs):
     if "silly" in kwargs.keys() and kwargs["silly"]:
         pass
     else: #exclude silly by default
-        noTags.append("silly")
+        b1Tags.append("silly")
+        b2Tags.append("silly")
 
     #generating a first board
     board1List = board(*getAllGoals(noTags=b1Tags), lockout=(not "lockout" in noTags), tagLimits=limits)
