@@ -105,10 +105,8 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
 @client.tree.command()
 async def newdoublingy(interaction: discord.Interaction):
     """Generates a pair of doublingy rooms."""
-    act1Tags = progStringToTags("Act 1 Only")
-    act1Tags.append("lockout")
-    act2Tags = progStringToTags("Act 2 Only")
-    act2Tags.append("lockout")
+    act1Tags = ["act2", "clawline", "faydown", "lockout"]
+    act2Tags = ["early", "dash", "cloak", "walljump", "widow", "lockout"]
     act1Board, act2Board = board.linkedBoards(noTags=(act1Tags, act2Tags))
     bsSession = network.bingosyncClient()
     n1, rId1 = bsSession.newRoom(json.dumps(act1Board), lockout=lockout)
