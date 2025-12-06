@@ -61,7 +61,7 @@ async def on_app_command_error(interaction, error):
     await interaction.response.send_message(f"The following error was encountered: {str(error.__cause__)}. Let Abyss know!", ephemeral=True)
 
 def prog_options():
-    opt = ["Act 1 Only", "No Clawline", "No Faydown"]
+    opt = ["Act 1 Only", "No Clawline", "No Faydown", "Act 2 Only"]
     return [app_commands.Choice(name=i, value=i) for i in opt]
 
 def progStringToTags(progression):
@@ -73,6 +73,8 @@ def progStringToTags(progression):
         noTags = ["clawline", "faydown"]
     elif progression.value == "No Faydown":
         noTags = ["faydown"]
+    elif progression.value == "Act 2 Only":
+        noTags = ["early", "dash", "cloak", "walljump", "widow"]
     return noTags
 
 @client.tree.command()
@@ -99,6 +101,20 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
     n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
     bsSession.close()
     await interaction.response.send_message(f"Room: {n} created at https://bingosync.com/room/{rId}")
+
+@client.tree.command()
+async def newdoublingy(interaction: discord.Interaction):
+    """Generates a pair of doublingy rooms."""
+    act1Tags = progStringToTags("Act 1 Only")
+    act1Tags.append("lockout")
+    act2Tags = progStringToTags("Act 2 Only")
+    act2Tags.append("lockout")
+    act1Board, act2Board = board.linkedBoards(noTags=(act1Tags, act2Tags))
+    bsSession = network.bingosyncClient()
+    n1, rId1 = bsSession.newRoom(json.dumps(act1Board), lockout=lockout)
+    n2, rId2 = bsSession.newRoom(json.dumps(act2Board), lockout=lockout)
+    bsSession.close()
+    await interaction.response.send_message(f"Act 1 room: {n1} at https://bingosync.com/room/{rId1}\nAct 2 room: {n2} at https://bingosync.com/room/{rId2}")
 
 @client.tree.command()
 @app_commands.describe(tags="Comma-seperated tags to exclude from board generation")

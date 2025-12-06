@@ -160,7 +160,7 @@
 
 **Complete a Loddie Minigame** | Progression level(s): ['widow'] | Other tags: ['npc']
 
-**Fail a Loddie Minigame** | Progression level(s): ['widow'] | Other tags: ['npc']
+**Fail a Loddie Minigame** | Progression level(s): ['widow'] | Other tags: ['npc', 'silly']
 
 **Talk to Gilly & Styx** | Progression level(s): ['walljump'] | Other tags: ['npc']
 

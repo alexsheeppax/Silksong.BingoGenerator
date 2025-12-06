@@ -1615,6 +1615,12 @@
         "Grand Gate Spool Fragment",
         "Last Judge"
       ]
+    },
+    {
+      "unique" : [
+        "Crawbug Clearing",
+        "Obtain {{X}} Crafting Kit"
+      ]
     }
   ]
 }

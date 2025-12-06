@@ -93,7 +93,19 @@ def board(allGoals:dict, exclusionDic, **kwargs):
     goals = []
     lockout = kwargs["lockout"] if "lockout" in kwargs.keys() else False
     tagLimits = kwargs["tagLimits"] if "tagLimits" in kwargs.keys() else None
+
+    if "priorGoals" in kwargs.keys(): #linked boards, apply exclusions now
+        for goal in kwargs["priorGoals"]:
+            exclusions = findExclusions(newGoal["name"], exclusionDic)
+            if exclusions: #exclusions is false if limit > 1 or no exclusions found
+                for excludedGoal in exclusions:
+                    allGoals = removeGoalByName(allGoals, excludedGoal)
+
+
     while len(goals) < 25:
+        if len(allGoals) == 0: #critical failure
+            raise EOFError("Out of goals! Try again.")
+
         newGoal = random.choices(allGoals, weights=[g["weight"] for g in allGoals])[0] #list comprehension to extract weights
 
         #process board limits
@@ -162,6 +174,32 @@ def bingosyncBoard(noTags=[], **kwargs):
     for name in boardList:
         out.append({"name": name})
     return out
+
+def linkedBoards(noTags, **kwargs):
+    b1Tags, b2Tags = noTags
+    #set up tag limits and such
+    if "tagLimits" in kwargs.keys():
+        limits = kwargs["tagLimits"]
+    else:
+        limits = None
+
+    if "silly" in kwargs.keys() and kwargs["silly"]:
+        pass
+    else: #exclude silly by default
+        noTags.append("silly")
+
+    #generating a first board
+    board1List = board(*getAllGoals(noTags=b1Tags), lockout=(not "lockout" in noTags), tagLimits=limits)
+    #generate a second board after applying exclusions based on already chosen boards
+    board2List = board(*getAllGoals(noTags=b2Tags), lockout=(not "lockout" in noTags), tagLimits=limits, priorGoals=board1List)
+    b1 = []
+    b2 = []
+    for name in board1List:
+        b1.append({"name": name})
+    for name in board2List:
+        b2.append({"name": name})
+    return b1, b2
+
 
 def printTypes():
     """

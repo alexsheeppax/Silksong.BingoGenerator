@@ -1046,7 +1046,8 @@
                 "walljump"
             ],
             "line_categories": [
-                "npc"
+                "npc",
+                "silly"
             ],
             "tooltip": "",
             "icons": []
