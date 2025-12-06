@@ -96,7 +96,7 @@ def board(allGoals:dict, exclusionDic, **kwargs):
 
     if "priorGoals" in kwargs.keys(): #linked boards, apply exclusions now
         for goal in kwargs["priorGoals"]:
-            exclusions = findExclusions(newGoal["name"], exclusionDic)
+            exclusions = findExclusions(goal, exclusionDic)
             if exclusions: #exclusions is false if limit > 1 or no exclusions found
                 for excludedGoal in exclusions:
                     allGoals = removeGoalByName(allGoals, excludedGoal)
