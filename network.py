@@ -52,7 +52,8 @@ ROOM_NAMES = [
     "Git Gud",
     "Proper Substance Use",
     "Ms Streamer",
-    "I Suggest Forcefem"
+    "I Suggest Forcefem",
+    "Toxic Yuri Wins Again"
 ]
 
 STANDARD_PAYLOAD = {
