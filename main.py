@@ -93,6 +93,8 @@ async def newboard(interaction: discord.Interaction, lockout: bool = False, pres
 @app_commands.choices(preset=prog_options())
 async def newroom(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
     """Generates a new board and creates a bingosync room."""
+    await interaction.response.defer(thinking=True)
+
     noTags = progStringToTags(preset)
     if not lockout:
         noTags.append("lockout") #exclude lockout-only goals
@@ -100,7 +102,7 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
     bsSession = network.bingosyncClient()
     n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
     bsSession.close()
-    await interaction.response.send_message(f"Room: {n} created at https://bingosync.com/room/{rId}")
+    await interaction.followup.send(f"Room: {n} created at https://bingosync.com/room/{rId}")
 
 @client.tree.command()
 async def newdoublingy(interaction: discord.Interaction):
