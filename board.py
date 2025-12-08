@@ -56,7 +56,10 @@ def getAllGoals(noTags=[], **kwargs):
         presentTags = [tag for tag in orderedProg if tag not in noTags] #ordered tags that arent excluded
         linspace = [1 + x*(maxWeightScale-1)/(len(presentTags)-1) for x in range(len(presentTags))]
         def weightScale(progString):
-            return linspace[presentTags.index(progString)]
+            try:
+                return linspace[presentTags.index(progString)]
+            except ValueError: #progression is being excluded anyway
+                return 1
     else: 
         def weightScale(progString):
             return 1
