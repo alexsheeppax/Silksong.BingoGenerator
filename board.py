@@ -10,6 +10,10 @@ CAT_FILENAME = "categorized_v3.json"
 BOARD_TYPES = [
     'cloak', 'walljump', 'act2', 'dash', 'early', 'clawline', 
     'faydown', 'craft', 'hardsave', 'melody', 'flea', "key", 'tool', ]
+
+#Ordered progression
+orderedProg = ['early','dash','cloak','walljump', 'widow', 'act2', 'clawline','faydown']
+maxWeightScale = 3
     
 LL_LIMITS = {
             "board" : {
@@ -39,7 +43,7 @@ LL_LIMITS = {
             }
         }
 
-def getAllGoals(noTags=[]):
+def getAllGoals(noTags=[], **kwargs):
     """
     Loads the file given in variables at the top of the script and returns the parts.
     Returns list of Goal dictionaries and list of Exclusive lists.
@@ -48,9 +52,19 @@ def getAllGoals(noTags=[]):
         catList = json.load(f)
     #can't modify list during iteration so keep track of removables here
     remGoals = []
+    if 'noProg' not in kwargs or not kwargs['noProg']: #progression scaling
+        presentTags = [tag for tag in orderedProg if tag not in noTags] #ordered tags that arent excluded
+        linspace = [1 + x*(maxWeightScale-1)/(len(presentTags)-1) for x in range(len(presentTags))]
+        def weightScale(progString):
+            return linspace[presentTags.index(progString)]
+    else: 
+        def weightScale(progString):
+            return 1
     for g in catList["goals"]: #add weight=1 to all non-weighted goals for later
         if "weight" not in g.keys():
-            g["weight"] = 1
+            g["weight"] = 1 * weightScale(g["progression"][0])
+        else:
+            g["weight"] = g["weight"] * weightScale(g["progression"][0])
         #check if we should exclude the goal based on options passed
         goalTags = g["types"] + g["progression"]
         for tag in goalTags:
@@ -314,5 +328,5 @@ if __name__ == "__main__":
     #print(json.dumps(lockoutFormat()))
 
     ####Test board generation
-    thisBoard = bingosyncBoard(noTags=["lockout"], tagLimits={"faydown":1, "flea" : 3, "clawline":1, "fight":2})
+    thisBoard = bingosyncBoard(noTags=["lockout"])
     print(json.dumps(thisBoard))
