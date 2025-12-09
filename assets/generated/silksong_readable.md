@@ -78,6 +78,8 @@
 
 **Cogfly** | Progression level(s): ['clawline'] | Other tags: ['tool', 'craft']
 
+**Snare Setter** | Progression level(s): ['faydown'] | Other tags: ['tool']
+
 **Upgrade Druid's Eye** | Progression level(s): ['faydown'] | Other tags: ['collection', 'tool']
 
 **Wanderer's Crest** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
@@ -98,6 +100,8 @@
 
 **Evolved Hunter's Crest** | Progression level(s): ['widow'] | Other tags: ['upgrade', 'hardsave']
 
+**Use a Simple Key in Deep Docks** | Progression level(s): ['early'] | Other tags: ['key', 'location', 'fight']
+
 **Faydown Cloak** | Progression level(s): ['clawline', 'faydown'] | Other tags: ['upgrade', 'hardsave']
 
 **3 Silk Skills** | Progression level(s): ['walljump'] | Other tags: ['upgrade', 'hardsave']
@@ -114,6 +118,8 @@
 
 **Cogwork Core Mask Shard** | Progression level(s): ['act2'] | Other tags: ['upgrade']
 
+**Wisp Thicket Mask Shard** | Progression level(s): ['faydown'] | Other tags: ['upgrade']
+
 **Craggler** | Progression level(s): ['early'] | Other tags: ['fight']
 
 **Moorwing** | Progression level(s): ['cloak'] | Other tags: ['fight']
@@ -127,6 +133,8 @@
 **Widow** | Progression level(s): ['walljump'] | Other tags: ['fight', 'lockout']
 
 **Defeat a Rhinogrund** | Progression level(s): ['walljump'] | Other tags: ['fight']
+
+**Disable the Clawmaidens** | Progression level(s): ['faydown'] | Other tags: ['fight']
 
 **Fourth Chorus** | Progression level(s): ['cloak'] | Other tags: ['fight']
 
@@ -178,6 +186,10 @@
 
 **Choral Chambers Ventrica** | Progression level(s): ['act2'] | Other tags: ['location']
 
+**High Halls Ventrica** | Progression level(s): ['faydown'] | Other tags: ['location']
+
+**Memorium Ventrica** | Progression level(s): ['faydown'] | Other tags: ['location']
+
 **Obtain 3 Craftmetal** | Progression level(s): ['act2'] | Other tags: ['collection', 'craft']
 
 **Obtain 5 Craftmetal** | Progression level(s): ['act2'] | Other tags: ['collection', 'craft']
@@ -223,6 +235,10 @@
 **Sinner's Road & Marrow Flea [2]** | Progression level(s): ['walljump'] | Other tags: ['flea']
 
 **Sands of Karak Flea [1]** | Progression level(s): ['clawline'] | Other tags: ['flea']
+
+**Exhaust Organ Flea [1]** | Progression level(s): ['widow'] | Other tags: ['flea']
+
+**Three Citadel Fleas** | Progression level(s): ['act2'] | Other tags: ['flea']
 
 **Mt. Fay Flea [1]** | Progression level(s): ['clawline'] | Other tags: ['flea']
 

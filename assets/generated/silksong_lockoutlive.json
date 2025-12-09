@@ -482,6 +482,18 @@
             "icons": []
         },
         {
+            "goal": "Snare Setter",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown",
+                "tool"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Upgrade Druid's Eye",
             "range": [],
             "individual_limit": 1,
@@ -625,6 +637,21 @@
             "icons": []
         },
         {
+            "goal": "Use a Simple Key in Deep Docks",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "early",
+                "key"
+            ],
+            "line_categories": [
+                "location",
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Faydown Cloak",
             "range": [],
             "individual_limit": 1,
@@ -734,6 +761,19 @@
             "icons": []
         },
         {
+            "goal": "Wisp Thicket Mask Shard",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "upgrade"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Craggler",
             "range": [],
             "individual_limit": 1,
@@ -818,6 +858,19 @@
             "individual_limit": 1,
             "board_categories": [
                 "walljump"
+            ],
+            "line_categories": [
+                "fight"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Disable the Clawmaidens",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
             ],
             "line_categories": [
                 "fight"
@@ -1157,6 +1210,32 @@
             "icons": []
         },
         {
+            "goal": "High Halls Ventrica",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Memorium Ventrica",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "faydown"
+            ],
+            "line_categories": [
+                "location"
+            ],
+            "tooltip": "",
+            "icons": []
+        },
+        {
             "goal": "Obtain {{X}} Craftmetal",
             "range": [
                 3,
@@ -1398,6 +1477,30 @@
             "individual_limit": 1,
             "board_categories": [
                 "clawline",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Exhaust Organ Flea [1]",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "walljump",
+                "flea"
+            ],
+            "line_categories": [],
+            "tooltip": "",
+            "icons": []
+        },
+        {
+            "goal": "Three Citadel Fleas",
+            "range": [],
+            "individual_limit": 1,
+            "board_categories": [
+                "act2",
                 "flea"
             ],
             "line_categories": [],

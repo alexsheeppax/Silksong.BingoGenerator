@@ -120,6 +120,9 @@
         "name": "Cogfly"
     },
     {
+        "name": "Snare Setter"
+    },
+    {
         "name": "Upgrade Druid's Eye"
     },
     {
@@ -150,6 +153,9 @@
         "name": "Evolved Hunter's Crest"
     },
     {
+        "name": "Use a Simple Key in Deep Docks"
+    },
+    {
         "name": "Faydown Cloak"
     },
     {
@@ -174,6 +180,9 @@
         "name": "Cogwork Core Mask Shard"
     },
     {
+        "name": "Wisp Thicket Mask Shard"
+    },
+    {
         "name": "Craggler"
     },
     {
@@ -193,6 +202,9 @@
     },
     {
         "name": "Defeat a Rhinogrund"
+    },
+    {
+        "name": "Disable the Clawmaidens"
     },
     {
         "name": "Fourth Chorus"
@@ -270,6 +282,12 @@
         "name": "Choral Chambers Ventrica"
     },
     {
+        "name": "High Halls Ventrica"
+    },
+    {
+        "name": "Memorium Ventrica"
+    },
+    {
         "name": "Obtain 3 Craftmetal"
     },
     {
@@ -337,6 +355,12 @@
     },
     {
         "name": "Sands of Karak Flea [1]"
+    },
+    {
+        "name": "Exhaust Organ Flea [1]"
+    },
+    {
+        "name": "Three Citadel Fleas"
     },
     {
         "name": "Mt. Fay Flea [1]"
