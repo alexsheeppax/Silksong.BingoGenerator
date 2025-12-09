@@ -351,6 +351,15 @@
       ]
     },
     {
+      "name": "Snare Setter",
+      "types": [
+        "tool"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
       "name": "Upgrade Druid's Eye",
       "types": [
         "collection",
@@ -454,6 +463,17 @@
       ]
     },
     {
+      "name": "Use a Simple Key in Deep Docks",
+      "types": [
+        "key",
+        "location",
+        "fight"
+      ],
+      "progression": [
+        "early"
+      ]
+    },
+    {
       "name": "Faydown Cloak",
       "types": [
         "upgrade",
@@ -532,6 +552,15 @@
       ]
     },
     {
+      "name": "Wisp Thicket Mask Shard",
+      "types": [
+        "upgrade"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
       "name": "Craggler",
       "types": [
         "fight"
@@ -593,6 +622,13 @@
       ],
       "progression": [
         "walljump"
+      ]
+    },
+    {
+      "name": "Disable the Clawmaidens",
+      "types": ["fight"],
+      "progression":[
+        "faydown"
       ]
     },
     {
@@ -828,6 +864,24 @@
       ]
     },
     {
+      "name": "High Halls Ventrica",
+      "types": [
+        "location"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
+      "name": "Memorium Ventrica",
+      "types": [
+        "location"
+      ],
+      "progression": [
+        "faydown"
+      ]
+    },
+    {
       "name": "Obtain {{X}} Craftmetal",
       "types": [
         "collection",
@@ -1010,6 +1064,24 @@
       ],
       "progression": [
         "clawline"
+      ]
+    },
+    {
+      "name": "Exhaust Organ Flea [1]",
+      "types": [
+        "flea"
+      ],
+      "progression": [
+        "widow"
+      ]
+    },
+    {
+      "name": "Three Citadel Fleas",
+      "types":[
+        "flea"
+      ],
+      "progression": [
+        "act2"
       ]
     },
     {
@@ -1468,6 +1540,12 @@
     },
     {
       "unique": [
+        "Flintslate",
+        "Use a Simple Key in Deep Docks"
+      ]
+    },
+    {
+      "unique": [
         "Great Conchflies",
         "Needle Art"
       ]
@@ -1536,9 +1614,12 @@
       ]
     },
     {
+      "limit":2,
       "unique": [
         "Rosary Cannon",
-        "Cogfly"
+        "Cogfly",
+        "Disable the Clawmaidens",
+        "High Halls Ventrica"
       ]
     },
     {
@@ -1574,7 +1655,8 @@
     {
       "unique": [
         "Father Of The Flame",
-        "Underworks Fleas [2]"
+        "Underworks Fleas [2]",
+        "Wisp Thicket Mask Shard"
       ]
     },
     {"unique": [
