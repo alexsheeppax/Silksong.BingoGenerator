@@ -370,7 +370,7 @@
       ]
     },
     {
-      "name": "Wanderer's Crest",
+      "name": "Wanderer Crest",
       "types": [
         "upgrade",
         "hardsave"
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "name": "Reaper's Crest",
+      "name": "Reaper Crest",
       "types": [
         "upgrade",
         "hardsave"
@@ -390,13 +390,25 @@
       ]
     },
     {
-      "name": "Beast's Crest",
+      "name": "Beast Crest",
       "types": [
         "upgrade",
         "hardsave"
       ],
       "progression": [
         "cloak"
+      ]
+    },
+    {
+      "name": "Witch Crest",
+      "types": [
+        "upgrade",
+        "hardsave",
+        "quest",
+        "silly"
+      ],
+      "progression": [
+        "clawline"
       ]
     },
     {
@@ -626,7 +638,9 @@
     },
     {
       "name": "Disable the Clawmaidens",
-      "types": ["fight"],
+      "types": [
+        "location"
+      ],
       "progression":[
         "faydown"
       ]
@@ -789,6 +803,16 @@
       ],
       "progression": [
         "widow"
+      ]
+    },
+    {
+      "name": "Float to the bottom of Bone Bottom hole",
+      "types": [
+        "location",
+        "silly"
+      ],
+      "progression": [
+        "cloak"
       ]
     },
     {
