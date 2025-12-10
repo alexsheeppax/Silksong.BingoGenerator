@@ -89,7 +89,7 @@ async def newboard(interaction: discord.Interaction, lockout: bool = False, pres
     noTags = progStringToTags(preset)
     if not lockout:
         noTags.append("lockout")
-    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS, size=int(size.value))
+    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS, size=int(size.value)**2)
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 @client.tree.command()
