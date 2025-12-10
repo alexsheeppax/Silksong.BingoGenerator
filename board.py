@@ -102,7 +102,7 @@ def removeGoalByName(goalList:list, toRemove):
             listCopy.remove(goal) #can't change mutable types during iteration
     return listCopy
 
-def board(allGoals:dict, exclusionDic, **kwargs):
+def board(allGoals:dict, exclusionDic, size=25, **kwargs):
     """
     Generates a list of 25 goals from the dict of goals pass as a dictionary. Goals will have a name and optionally exclusions.
     Returns a list of goal names.
@@ -119,7 +119,7 @@ def board(allGoals:dict, exclusionDic, **kwargs):
                     allGoals = removeGoalByName(allGoals, excludedGoal)
 
 
-    while len(goals) < 25:
+    while len(goals) < size:
         if len(allGoals) == 0: #critical failure
             raise EOFError("Out of goals! Try again.")
 
@@ -186,7 +186,10 @@ def bingosyncBoard(noTags=[], **kwargs):
     else: #exclude silly by default
         noTags.append("silly")
 
-    boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags), tagLimits=limits)
+    if "size" in kwargs.keys():
+        boardList = board(*getAllGoals(noTags=noTags), size=int(kwargs["size"]), lockout=(not "lockout" in noTags), tagLimits=limits)
+    else:
+        boardList = board(*getAllGoals(noTags=noTags), lockout=(not "lockout" in noTags), tagLimits=limits)
     out = []
     for name in boardList:
         out.append({"name": name})

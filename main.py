@@ -105,6 +105,22 @@ async def newroom(interaction: discord.Interaction, lockout: bool = False, prese
     await interaction.followup.send(f"Room: {n} created at https://bingosync.com/room/{rId}")
 
 @client.tree.command()
+@app_commands.describe(preset="Tags to exclude based on preset categories.")
+@app_commands.choices(preset=prog_options())
+async def newcaravan(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None):
+    """Generates a new 6x6 board and creates a caravan room."""
+    await interaction.response.defer(thinking=True)
+
+    noTags = progStringToTags(preset)
+    if not lockout:
+        noTags.append("lockout") #exclude lockout-only goals
+    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS, size=36)
+    bsSession = network.caravanClient()
+    n, rId = bsSession.newRoom(json.dumps(thisBoard), lockout=lockout)
+    bsSession.close()
+    await interaction.followup.send(f"Room: {n} created at https://caravan.kobold60.com/room/{rId}")
+
+@client.tree.command()
 async def newdoublingy(interaction: discord.Interaction):
     """Generates a pair of doublingy rooms."""
     await interaction.response.defer(thinking=True)
