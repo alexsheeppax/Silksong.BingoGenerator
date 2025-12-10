@@ -82,6 +82,7 @@ class bingosyncClient():
     roomId = None
 
     def __init__(self):
+        self.bingosync = True
         self.session = requests.Session()
         #Using a session automatically persists cookies!
         #set user-agent header:
@@ -113,14 +114,18 @@ class bingosyncClient():
         else:
             formData["room_name"] = roomName
         formData["csrfmiddlewaretoken"] = [self.csrfToken, self.csrfToken]
-        response = self.session.post("https://bingosync.com/", data=formData, allow_redirects=False)
+        if self.bingosync:
+            baseUrl = "https://bingosync.com/"
+        else:
+            baseUrl = "https://caravan.kobold60.com/"
+        response = self.session.post(baseUrl, data=formData, allow_redirects=False)
         if response.status_code == 302: #expected
             #save the room ID and then disconnect from it
             self.roomId = response.headers["location"].split("/")[2]
-            self.session.get(f"https://bingosync.com/room/{self.roomId}/disconnect")
+            self.session.get(f"{baseUrl}/room/{self.roomId}/disconnect")
         return formData["room_name"], self.roomId
 
-    def updateCard(self, roomID, boardJSON, hideCard = True, lockout = False, roomName=None, passphrase="fast", seed = ""):
+    def updateCard(self, roomID, boardJSON, hideCard = True, lockout = False, roomName=None, passphrase="fast", seed = "", bingosync = True):
         """
         Updates a room's card with a new board.
         """
@@ -133,8 +138,12 @@ class bingosyncClient():
             "custom_json" : boardJSON,
             "seed": seed
         })
+        if self.bingosync:
+            baseUrl = "https://bingosync.com/"
+        else:
+            baseUrl = "https://caravan.kobold60.com/"
         formData["csrfmiddlewaretoken"] = [self.csrfToken, self.csrfToken]
-        response = self.session.post("https://bingosync.com/api/new-card", data=formData)
+        response = self.session.post(f"{baseUrl}/api/new-card", data=formData)
         return response
 
 
@@ -143,6 +152,22 @@ class bingosyncClient():
         Closes the session.
         """
         self.session.close()
+
+class caravanClient(bingosyncClient):
+    def __init__(self):
+        self.bingosync = False
+        self.session = requests.Session()
+        #Using a session automatically persists cookies!
+        #set user-agent header:
+        self.session.headers.update({
+            "User-Agent" : "Silksong.Bingogenerator/0.1",
+            "Origin": "https://caravan.kobold60.com/",
+            "Host": "caravan.kobold60.com",
+        })
+        #Make a request to get them cookies
+        r = self.session.get("https://caravan.kobold60.com/")
+
+        self.csrfToken = self.session.cookies["csrftoken"]
 
 
 if __name__ == "__main__":
