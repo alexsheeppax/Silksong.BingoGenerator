@@ -65,7 +65,7 @@ def prog_options():
     return [app_commands.Choice(name=i, value=i) for i in opt]
 
 def size_options():
-    return [app_commands.Choice(name=i, value=i) for i in [5,6]]
+    return [app_commands.Choice(name=str(i), value=str(i)) for i in [5,6]]
 
 def progStringToTags(progression):
     if progression is None:
@@ -84,12 +84,12 @@ def progStringToTags(progression):
 @app_commands.describe(preset="Tags to exclude based on preset categories.")
 @app_commands.choices(preset=prog_options())
 @app_commands.choices(size=size_options())
-async def newboard(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None, size: Optional[app_commands.Choice[str]]=5):
+async def newboard(interaction: discord.Interaction, lockout: bool = False, preset: Optional[app_commands.Choice[str]] = None, size: Optional[app_commands.Choice[str]]="5"):
     """Generates a new board for bingo."""
     noTags = progStringToTags(preset)
     if not lockout:
         noTags.append("lockout")
-    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS, size=size)
+    thisBoard = board.bingosyncBoard(noTags=noTags, **BOARD_KWARGS, size=int(size))
     await interaction.response.send_message(json.dumps(thisBoard), ephemeral=True)
 
 @client.tree.command()
