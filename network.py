@@ -82,7 +82,7 @@ class bingosyncClient():
     roomId = None
 
     def __init__(self):
-        bingosync = True
+        self.bingosync = True
         self.session = requests.Session()
         #Using a session automatically persists cookies!
         #set user-agent header:
@@ -155,7 +155,7 @@ class bingosyncClient():
 
 class caravanClient(bingosyncClient):
     def __init__(self):
-        bingosync = False
+        self.bingosync = False
         self.session = requests.Session()
         #Using a session automatically persists cookies!
         #set user-agent header:
